@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+       <link rel="stylesheet" type="text/css" href="holiday.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+           .footer{display: inline-block;height:auto;width: 100%;background-color:rgba(165,100,78,0.5);}
+        .end{background-color:rgba(165,100,78,1);}
+        input{border-radius: 5px; padding:10px;}
+             body{margin: 30px; height:auto;background-color:rgba(251,238,201,0.8);}       
+       .map{height: 400px;width: 100%;margin-top: 20px;}
+            .matter{height: auto;width: 100%;}
+            .center{display: block;text-align: center;margin-left: 500px;margin-bottom:10px;margin-top: 40px;}
+             pag{display: inline-block; margin-bottom: 20px;}
+          .pag a{color: black;float: left;padding: 8px 16px;margin: 0 8px;;
+                 ;font-size: 25px;font-weight: bold;display: block;border-radius: 10px;
+                text-decoration: none;border: 1px solid black;background-color:transparent;transition-duration: 1s;
+                }
+        .pag a:hover{background-color:tomato; color: white;transition: background-color 0.5s;}
+
+            .content1{height:auto;}
+            .main-content{height:auto;width: 100%;}
+            table{width: 100%;}
+            .pics{height:330px;width: 500px; border: 1px solid black;
+                 display: inline-block;margin-left:20px;margin-right: 20px;
+                }
+            .zoom{text-decoration: none; color:whitesmoke;} .zoom:hover{font-size: 40px;}
+            .pics:hover{border: 2px solid black;box-shadow: 0 0 10px #0000FF;}
+            p{font-size: 20px;text-indent:60px;text-align: justify;color:black;line-height:1.5;}
+            
+            </style>
+    </head>
+    <body>
+        <div class="matter">
+            
+            <div class="photos">
+           <div id="slider1">
+ <div id="box1"><img class="image_gallery1" src="http://static.wixstatic.com/media/44db85_e5969f936f074eee8cbb4d8d2c3eb0e0.jpg/v1/fill/w_910,h_599,al_c,q_85/44db85_e5969f936f074eee8cbb4d8d2c3eb0e0.webp"></div>  
+<div id="box1"><img class="image_gallery1" src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Samadhi_Mandir_of_Srila_Prabhupada%2C_Mayapur_07102013.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://i1.trekearth.com/photos/107733/h5.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="https://static2.tripoto.com/media/filter/nl/img/93486/TripDocument/1500832496_ei8a6943_001.jpg">  </div>    
+ <div id="box1"><img class="image_gallery1" src="https://i.ytimg.com/vi/mwNuSAVr4FQ/maxresdefault.jpg"></div>  
+<div id="box1"><img class="image_gallery1" src="http://www.holidayiq.com/images/attractions/1345736550_17550.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://gobindaroy.files.wordpress.com/2015/01/lock-gates-at-mukutmanipur.jpg"> </div>   
+<div id="box1"><img class="image_gallery1" src="https://image3.mouthshut.com/images/Restaurant/Photo/-46538_46492.jpg"> </div>  
+                       </div>  
+            <script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("image_gallery1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000); 
+}
+</script>
+       </div>
+            
+        <ul>
+            <li><i class="fas fa-sign-out-alt"></i>LOGOUT</li>
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content1">
+           <center><h1>HOIDAY SPOTS AROUND KOLKATA</h1></center><hr>
+           <div class="main-content">
+      <table>
+          <tr>
+              <td width="30%">
+                          
+           <a href="h5.jpg"> <img class="pics" src="h5.jpg" height="50" width="50"></a><br>
+              </td>
+              <td width="70%">
+                  <h2>Bakkhali-A Retreat for the Sea Fanatics</h2>
+                  <p>
+                     "A beach to yourself" is how one would describe Bakkhali. Close to Sunderbans, it is a halcyon getaway in itself. Away from the hustle bustle of the main city and located around 135 kms from Calcutta, Bakkhali comes across as a treat to its visitors. It is lined with casuarinas and one can take advantage of a mystic sunset here.<br>
+                     <b><font size="3">How to reach:</font></b> Located on one of the many islands spread across the Bay of Bengal, Bakkhali is well connected by roads. The road route is an approximate of 3.5 hours from Joka (outskirts of Kolkata). The rail link is also quite accessible with Namkhana being the nearest railway junction.<br>
+                     <b><font size="3">Places of Interest:</font></b> Apart from the rolling waves, one can indulge in the pleasure of visiting the Crocodile and Mangrove forest. The Benfish Harbour is also a treat to explore.
+                    </p>
+              </td> 
+          </tr>
+        </table><hr>
+          <table>
+         <tr>
+              <td width="30%">
+                  <a href="iskcon-mayapur.jpg"><img class="pics" src="iskcon-mayapur.jpg" height="50" width="50"></a><br>       
+              </td>
+              <td width="70%">
+                  <h2>Mayapur and ISKCON Trip</h2>
+                  <p>
+                     A beautiful abode of the Gods surrounded by thriving natural beauty, ISKCON Mayapur Dham is a place where one can find immense soulful peace. Built with the unique concept of ancient Vedic village, here you will meet people that belong to a different age completely.<br>
+                     <b><font size="3">How to reach:</font></b>It takes about 3 hours to reach Nabadwip Dham from Howrah.<br>
+                     <b><font size="3">Places of Interest:</font></b> The major attraction of Mayapur is ISKCON Chandrodaya Temple with beautiful idols of Sri Krishna and Sri Radha, the Golden Samadhi Mandir of Srila Praphupada, the Mayapur Goshala and four spacious guest houses and some small cottages that can be booked for pilgrims and tourists. 
+                    </p>
+              </td> 
+          </tr>
+          </table><hr>
+          <table>
+          <tr>
+              <td width="30%">
+                  <a href="hilltop-garden-at-kansabati.jpg"><img class="pics" src="hilltop-garden-at-kansabati.jpg" height="50" width="50"></a><br>  
+              </td>
+              <td width="70%"><h2>Mukutmanipur: An Escape Into Quietude</h2>
+                  <p>
+                     An arresting beauty surrounded by verdant hills and forests creates in itself, an ideal place for a day-out. Embracing the charm of the beautiful necklace like dam (second largest earth dam of India as well as Asia. <br>
+                     <b><font size="3">How to reach:</font></b> The fine drive of 250 Km from Calcutta leads to Mukutmanipur. This exotic locale is also known as the land of red soil. Railway services are also apt from Howrah till Bankura. Bus services can also be availed from Calcutta till Bankura (further hiring a car till Mukutmanipur)<br>
+                     <b><font size="3">Places of Interest:</font></b>Apart from the dam, there are many tourist joints nearby. Parasnath Hills (an important pilgrimage point), Banpukuria Deer Park (finding some rare species of bird) or visiting the relics of the ancient town of Ambikanagar (5km from Mukutmanipur) can be the highlights of one’s escape into serenity.
+                    </p>
+              </td>
+          </tr>
+          </table><hr>
+       
+           </div>
+           <div class="center">
+           <div class="pag">
+               <a href="holiday1.html">&laquo;</a>
+               <a href="holiday.html">1</a>
+               <a href="holiday1.html">2</a>
+               <a href="holiday2.html">3</a>
+               <a href="holiday.html">&raquo;</a>
+           </div>
+           </div>
+       </div> 
+        </div>
+        <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1DX8MuBDwvrz_vrbMD3T7GZfvdL77aDAo&hl=en" width="640" height="480"></iframe>
+    </body>
+</html>

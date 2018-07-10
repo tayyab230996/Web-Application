@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet" type="text/css" href="top10.css">
+        
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <style>
+        .footer{display: inline-block;height:auto;width: 100%;background-color:rgba(165,100,78,0.5);}
+        .end{background-color:rgba(165,100,78,1);}
+        input{border-radius: 5px; padding:10px;}
+             body{margin: 30px; height:auto;background-color:rgba(251,238,201,0.8);}       
+       p{color:black;line-height: 1.5;}
+.vertical-menu {
+    width: 200px;height: auto;
+}
+#ver-link{background-color:brown;}
+.vertical-menu a {
+    color:whitesmoke;font-weight: bold;
+    display: block; text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;margin: 10px;
+}
+#ver-link:hover,#ver-link:visited{background-color:brown;border-bottom: 3px solid black;}
+        </style>
+    </head>
+    <body>
+        <div class="photos">
+           <div id="slider1">
+                          <div id="box1">
+ <img class="image_gallery1" src="IKBF_BANNER_wide_150-2-e1516188569339.png"></div>
+ <div id="box1"><img class="image_gallery1" src="handicraft-fair-kolkata-artworks-display-sale-biggest-handicrafts-asia-48462111.jpg">  </div> 
+
+<div id="box1"><img class="image_gallery1" src="maxresdefault (6).jpg"></div>
+<div id="box1"><img class="image_gallery1" src="85.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="Adda-at-Book-Fair.png">  </div>    
+  <div id="box1"><img class="image_gallery1" src="Event291424015Img.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="kolkata-handicraft-fair (1).jpg">  </div> 
+<div id="box1"><img class="image_gallery1" src="kolkata-handicraft-fair.jpg"> </div>    
+
+                       </div>  
+            <script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("image_gallery1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000); 
+}
+</script>
+       </div>
+        <ul>
+    
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+        <h1><marquee>KOLKATA FAIRS</marquee></h1>
+<table>
+    <tr>
+        <td>
+<div class="vertical-menu">
+  <a id="ver-link" href="art_gallery.html">Arts Gallery</a>
+  <a id="ver-link" href="culture.html">Culture</a>
+  <a id="ver-link" href="festivals.html">Festivals</a>
+  <a id="ver-link" href="fairs.html">Fairs</a>
+  </td>
+        <td>
+<div class="main">
+            <div class="main">
+            <p>Calcutta fairs have become an intrinsic part of the city of joy. The city witnesses a vast array of fairs that keep the people engrossed with the task of planning as to what to buy from each fair. Each of the fairs of Calcutta India has something unique to offer. 
+            </p>
+            <h2>Kolkata International Book Fair</h2>
+            <p>Kolkata book fair was initiated in the year 1976 by the Calcutta Publishers' and Booksellers' Guild. It was started on a small scale, but today, it is the largest book fair in Asia. Book fair of Kolkata India was conducted in order to meet the public demand for more and more exciting books. It was at that time that there were not adequate bookshops from where people could buy the books of their choice. Book fair of Calcutta India has been gaining momentum every year. 
+            The fair usually starts on the last Wednesday of January. Initially, it was a weeklong event but popular demand has compelled the authorities to extend the duration of fair to 12 days.
+            For Bengali books, some of the popular bookstalls include Ananda Publishers, Deb Sahitya Kutir, and Mitra Ghosh Publishers and for English books, the best bookstalls are Timely Books, Seagull Books, Rupa and Co and Penguin India.
+            </p>
+            <h2>Poush Mela</h2>
+            <p>Poush mela is a three day long event that is held every year to mark the commemoration of Rabindranath Tagore's Shantiniketan. Calcutta Poush mela usually takes place during late December. It is during this fair that prayers are offered. The celebration of Poush mela of Kolkata India is not just limited to the religious aspect, but also extends to the display of folk performances and conduct of cultural fests and craft bazaars. In fact, it can be said that this three day long festival cum fair gives an absolutely fantastic opportunity to the tourists to explore the culture of Shantiniketan. It has been able to attract more and more number of tourists every year. The last day of fair is dedicated to all those who were associated with Shantiniketan.
+            </p>
+            <h2>Handloom Expo</h2>
+            <p>Handloom expo is hosted every alternate year in the Kolkata Maidan. It was initiated long back in the year 1982. Calcutta handloom expo is a 21 days long event that gives a fabulous opportunity to the people of Calcutta as well as the tourists to shop anything from bed sheets to clothes at the most reasonable prices. Handloom expo of Kolkata India has been attracting more and more people every year. It is sponsored by the State Govt with the support of Central govt. 
+
+            </p>
+        </div>
+        </div>
+            </td>
+    </tr>
+</table>
+         <ul class="end">
+            <li><i class="fas fa-info-circle"></i><a href="aboutus.html">ABOUT US</a></li>
+            <li><i class="fas fa-envelope"></i><a href="#">CONTACT US</a></li>
+        </ul> 
+    </body>
+</html>

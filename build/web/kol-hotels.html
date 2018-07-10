@@ -1,0 +1,199 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet" type="text/css" href="top10.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+          body{
+    background-color:wheat;
+            }              .map{height: 400px;width: 100%;}
+            .center{display: block;text-align: center;margin-left: 500px;margin-bottom:10px;}
+             pag{display: inline-block; margin-bottom: 20px;}
+          .pag a{color: black;float: left;padding: 8px 16px;margin: 0 8px;font-size: 25px;
+                 font-weight: bold;display: block;border-radius: 10px;background-color: transparent;
+                text-decoration: none;border: 1px solid black;transition: background-color 0.5s;
+                }
+           .pag a:visited,.pag a:hover{background-color:lightcoral; color:black;}
+            h2{text-align: center;}
+            .content{height:auto; margin-bottom: 20px;}
+            .main-content{height:auto;width: 100%;}
+            table{width: 100%;}
+            .pics{height:250px;width: 350px; border: 1px solid black;
+                 display: inline-block;margin-left:50px;margin-right: 30px;
+                }
+                p{font-size: 20px;text-indent: 0px;text-align: justify;}
+             .zoom{text-decoration: none; color:darkblue;} .zoom:hover{font-size: 40px;}
+            .pics:hover{border: 2px solid black;box-shadow: 0 0 10px #0000FF;}
+            
+            </style>
+    </head>
+    <body>
+         <div class="photos">
+           <div id="slider1">
+ <div id="box1"><img class="image_gallery1" src="https://i.ytimg.com/vi/gQQRnJwVwd4/maxresdefault.jpg"></div> 
+<div id="box1"><img class="image_gallery1" src="https://i.pinimg.com/originals/85/fa/1e/85fa1e4399103162e5513056bb510d02.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://www.whatsuplife.in/kolkata/timthumb.php?src=awn-admin/uploaded_file/2_1478917687.jpg&w=916&h=457&zc=1&f=0|0|0|0|0"> </div>    
+<div id="box1"><img class="image_gallery1" src="http://meow.blabbercat.com/images/res/article/the-coffee-shop-and-the-bar-at-calcuttas-heritage-hotel-reopens-in-an-all-new-look-179.jpg">  </div>    
+ <div id="box1"><img class="image_gallery1" src="https://taj.tajhotels.com/content/dam/luxury/tajbengal/3x2/Dining_TBK_Atrium2_3150__CMYK-3x2.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="https://imgcld.yatra.com/ytimages/image/upload/t_seo_Hotel_w_930_h_550_c_fill_g_auto_q_40_f_jpg/v1407418873/Domestic%20Hotels/Hotels_Kolkata/The%20Park/Overview.jpg">  </div> 
+<div id="box1"><img class="image_gallery1" src="https://t-ec.bstatic.com/images/hotel/max1024x768/522/52217391.jpg">  </div>    
+ <div id="box1"><img class="image_gallery1" src="https://content3.jdmagicbox.com/comp/kolkata/48/033pg005248/catalogue/park-hotel-park-street-kolkata-5-star-hotels-79i7l9.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="https://t-ec.bstatic.com/images/hotel/max1280x900/464/46433348.jpg">  </div> 
+<div id="box1"><img class="image_gallery1" src="https://t-ec.bstatic.com/images/hotel/max1024x768/464/46433018.jpg">  </div>    
+ <div id="box1"><img class="image_gallery1" src="https://s-ec.bstatic.com/images/hotel/max1024x768/464/46438167.jpg"> </div>    
+
+                       </div>  
+            <script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("image_gallery1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000); 
+}
+</script>
+       </div>
+        <ul>
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content">
+           <center><h1>HOTELS IN KOLKATA</h1></center><hr>
+           <div class="main-content">
+      <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="f3c2004e33367f63ae54188106002a98.jpg"><img class="pics" src="f3c2004e33367f63ae54188106002a98.jpg" height="50" width="50"></a><br>     
+          
+              </td>
+              <td width="40%">
+                  <h2>ITC SONAR</h2>
+                  <p><b><i class="fas fa-map-marker"></i>Address:-</b><br>
+                        1,JBS Halden Avenue,Opp Science city<br> 
+                     Kolkata - 700 046,West Bengal, India<br>
+                     <b>Access:-</b><br>
+                     16 kms from Airport<br>
+                     14 kms from Howrah Railway Station
+                    </p>
+              </td>
+              <td width="30%">
+                  <p>
+                      <b> Accommodation :</b><br>
+                      238 rooms <br>
+                      ITC One room<br>
+                      Executive Club room<br>
+                      Restaurant: 4
+                      
+                     
+                  </p>
+              </td>
+          </tr>
+        </table><hr>
+          <table>
+         <tr>
+              <td width="30%">
+                  <a  class="zoom" href="tbkb.jpg"><img class="pics" src="tbkb.jpg" height="50" width="50"></a><br>
+                     
+              </td>
+              <td width="40%">
+                  <h2>TAJ BENGAL</h2>
+                  <p><b><i class="fas fa-map-marker"></i>Address:-</b><br>
+                     34B, Belvedere Road Alipore<br> 
+                     Kolkata - 700 047,West Bangal, India<br>
+                     <b>Access:-</b><br>
+                     14 kms from Airport<br>
+                     12 kms from Howrah Railway Station
+                  </p>
+              </td>
+              <td width="30%">
+                  <p>
+                      <b> Accommodation :</b><br>
+                      83 Superior Rooms<br>
+                      13 Luxury Rooms<br>
+                      28 Taj Club Rooms<br>
+                      Restaurant: 4
+         
+                  </p>
+              </td>
+          </tr>
+          </table><hr>
+          <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="park.jpg"><img class="pics" src="park.jpg" height="50" width="50"></a><br>
+                   
+              </td>
+              <td width="40%"><h2>THE PARK</h2>
+                  <p><b><i class="fas fa-map-marker"></i>Address:-</b><br>
+                        17 Park Street <br> 
+                     Kolkata - 700 016,West Bengal, India<br>
+                     <b>Access:-</b><br>
+                     24 kms from Airport<br>
+                     04 kms from Howrah Railway Station
+                  </p>
+              </td>
+              <td width="30%">
+                  <p>
+                      <b> Accommodation :</b><br>
+                      85 Deluxe room<br>
+                      47 Luxury Rooms<br>
+                      17 Suites<br>
+                      Restaurant: 3
+                  </p>
+              </td>
+          </tr>
+          </table><hr>
+          <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="32092064.jpg"><img class="pics" src="32092064.jpg" height="50" width="50"></a><br>
+                      
+              </td>
+              <td width="40%">
+                  <h2>THE OBEROI GRAND</h2>
+                  <p><b><i class="fas fa-map-marker"></i>Address:-</b><br>
+                        15, Jawaharlal Nehru Road<br> 
+                     Kolkata - 700 013,West Bangal, India<br>
+                     <b>Access:-</b><br>
+                     18 kms from Airport<br>
+                     15 kms from Howrah Railway Station
+                  </p>
+              </td>
+              <td width="30%">
+                  <p>
+                      <b> Accommodation :</b><br>
+                      43 Classic rooms<br>
+                      87 Deluxe rooms<br>
+                      03 Luxury suites<br>
+                      Restaurant : 2
+                    
+                  </p>
+              </td>
+          </tr>
+      </table> 
+           </div>
+           <div class="center">
+           <div class="pag">
+               <a href="kol-hotels3.html">&laquo;</a>
+               <a href="kol-hotels.html">1</a>
+               <a href="kol-hotels2.html">2</a>
+               <a href="kol-hotels3.html">3</a>
+               <a href="kol-hotels4.html">4</a>
+               <a href="kol-hotels2.html">&raquo;</a>
+           </div>
+           </div>
+       </div> 
+       
+        <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1W_nO-IRBZfUFoK8UuF2aCdbsyehbGek6"></iframe>
+          
+    </body>
+</html>

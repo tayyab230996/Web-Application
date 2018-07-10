@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet" type="text/css" href="top10.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+            body{
+   background-color:rgba(251,238,201,0.8);
+    background-image: url("sydney-harbour-bridge-7360x4912-sydney-australia-bridge-4k-8k-684.jpeg");
+    margin: 25px; background-repeat:no-repeat;
+    max-height:available;max-width:available;
+}
+            .center{display: block;text-align: center;margin-left: 500px;margin-bottom:10px;}
+             pag{display: inline-block; margin-bottom: 20px;}
+          .pag a{color: black;float: left;padding: 8px 16px;margin: 0 8px;font-size: 25px;
+                 font-weight: bold;display: block;border-radius: 10px;background-color: rgba(0,0,0,0.2);
+                text-decoration: none;border: 1px solid black;transition: background-color 0.5s;
+                }
+           .pag a:visited,.pag a:hover{background-color:rgba(0,0,0,0.5); color: white;}
+           
+            .content{height:auto;}
+            .main-content{height:auto;width: 100%;}
+            table{width: 100%;}
+            .pics{height:300px;width:450px; border: 1px solid black;
+                 display: inline-block;margin-left:20px;margin-right: 10px;
+                }
+                p{font-size:18px;text-indent: 50px;text-align: justify;color:black;}
+             .zoom{text-decoration: none; color:darkblue;} .zoom:hover{font-size: 40px;}
+            .pics:hover{border: 2px solid black;box-shadow: 0 0 10px #0000FF;}
+            section{text-align: center;font-size: 22px;color: white;}
+            </style>
+    </head>
+    <body>
+        <div class="photos">
+           <div id="slider1">
+                          <div id="box1">
+   <img class="image_gallery1" src="800px-Howrah_bridge_betwixt_Lights.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="7716996392_ec72a498a1_b.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="30406433666_07e66bf7f6_h.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="howrah-bridge-1st.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="10187626214_e3444c797d_b.jpg">  </div>    
+  
+                       </div>  
+            <script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("image_gallery1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000); 
+}
+</script>
+       </div>
+        <ul>
+            <li><i class="fas fa-sign-out-alt"></i>LOGOUT</li>
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content">
+           <center><h1>BRIDGES IN KOLKATA</h1></center><hr>
+           <div class="main-content">
+      <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="Hawra_bridge_kolkata.jpg"><img class="pics" src="Hawra_bridge_kolkata.jpg" height="50" width="50"></a><br>     
+          
+              </td>
+              <td width="70%">
+                  <h2>Howrah Bridge</h2>
+                  <p><b><font size="5"><i class="fas fa-map-marker"></i>Location:</font></b>	Howrah and Kolkata
+                  <p>Linking the cities of Kolkata and Howrah - the Howrah Bridge, built over the Hooghly River, is the symbol of Kolkata city. Commissioned in the year 1943, Howrah Bridge is the world's sixth longest bridge of its type. You will be amazed to know that with a daily traffic of around 100,000 vehicles and more than 150,000 pedestrians, this bridge is known to be the world's busiest cantilever bridge. It is the replacement of the Pontoon Bridge, which previously linked the two cities at the same location. Formerly known as New Howrah Bridge, this bridge has been renamed as 'Rabindra Setu' on 14 June 1965. 
+                      The first vehicle that ran over the historic Howrah Bridge, before it opened for the public on February 3, 1943, was a solitary tram. 
+                  </p>
+  
+              </td>
+              
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="bridge-167041_960_720.jpg"><img class="pics" src="bridge-167041_960_720.jpg" height="50" width="50"></a><br>     
+     
+              </td>
+              <td width="70%">
+                  <h2>Vidyasagar Setu</h2>
+                  <p><b><font size="5"><i class="fas fa-map-marker"></i>Location:</font></b> Kolkata, West Bengal
+                  <p>Vidyasagar Setu,also known as the Second Hooghly Bridge, is a toll bridge over the Hooghly River in West Bengal, India, linking the cities of Kolkata and Howrah.
+                  With a total length of 823 metres (2,700 ft), Vidyasagar Setu is the longest cable–stayed bridge in India.
+                  Named after the educationist reformer Pandit Ishwar Chandra Vidyasagar, it cost ₹3.88 billion to build,was completed in 1992.</p>
+              </td> 
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="vivekanda-setu3.jpg"><img class="pics" src="vivekanda-setu3.jpg" height="50" width="50"></a><br>     
+          
+              </td>
+              <td width="70%">
+                  <h2>Vivekananda Setu</h2>
+                  <p><b><font size="5"><i class="fas fa-map-marker"></i>Location:</font></b> Bally-Dakshineswar, West Bengal
+                  <p>
+Vivekananda Setu (also called Willingdon Bridge and Bally Bridge) is a bridge over the Hooghly River in West Bengal, India. It links the city of Howrah, at Bally, to its twin city of Kolkata, at Dakshineswar. Completed in December 1932, it is a multispan steel bridge and was built to provide road and rail link between the Calcutta Port and its hinterland. It is 2,887 feet (880 m) long.
+                  The bridge serves both road and rail.The Bally Bridge was named Willingdon Bridge after Viceroy of India, Freeman Freeman-Thomas, 1st Marquess of Willingdon, who inaugurated it.The first train that ran across the bridge was named Jagmal Raja Howrah Express by the British, acknowledging the feat of Rai Bahadur Jagmal Raja.</p>
+              </td>  
+          </tr>
+        </table><hr>
+                 
+           </div>
+           
+       </div> 
+    </body>
+</html>

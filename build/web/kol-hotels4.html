@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+       <link rel="stylesheet" type="text/css" href="top10.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+            body{
+    background-color: wheat;
+            }        .map{height: 400px;width: 100%;margin-top: 20px;}
+            .center{display: block;text-align: center;margin-left: 500px;}
+             pag{display: inline-block; margin-bottom: 20px;}
+          .pag a{color: black;float: left;padding: 8px 16px;margin: 0 8px;background-color:transparent;
+  ;font-size: 25px;font-weight: bold;display: block;border-radius: 10px;
+                text-decoration: none;border: 1px solid black;transition: background-color 0.5s; }
+          
+           .pag a:visited,.pag a:hover{background-color:lightcoral; color:black;}
+           
+            h2{text-align: center;}
+            .content1{height:auto;margin-bottom: 20px;}
+            .main-content{height:auto;width: 100%;}
+            table{width: 100%;}
+            .pics{height:300px;width: 500px; border: 1px solid black;
+                 display: inline-block;margin-left:20px;margin-right: 20px;
+                }
+            .zoom{text-decoration: none; color:darkblue;} .zoom:hover{font-size: 40px;}
+            .pics:hover{border: 2px solid black;box-shadow: 0 0 10px #0000FF;}
+            
+            p{font-size: 20px;text-indent: 0px;text-align: justify;}
+            #para{font-size: 20px;text-indent: 80px;text-align: justify;}
+            </style>
+    </head>
+    <body>
+         <div class="photos">
+           <div id="slider1">
+ <div id="box1"><img class="image_gallery1" src="https://www.thevedicvillage.com/images/the-resort.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://www.thevedicvillage.com/images/index-services/accommodation.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="http://www.thevedicvillage.com/images/contact-banner.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="https://images.trvl-media.com/hotels/9000000/8120000/8119600/8119508/8119508_97_z.jpg">  </div>    
+ <div id="box1"><img class="image_gallery1" src="https://t-ec.bstatic.com/images/hotel/max1280x900/603/60313648.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="https://res.cloudinary.com/simplotel/image/upload/w_5000,h_3333/x_0,y_522,w_4996,h_2810,r_0,c_crop,q_60,fl_progressive/w_1366,c_fit,f_auto/hotel-the-hans-coco-palms-puri/Hans_Coco_Palms_Puri_nqxrz9">  </div>
+<div id="box1"> <img class="image_gallery1" src="http://www.palmvillage.in/img/gallery/Pathways.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="http://www.arenatours.com/wp-content/uploads/sri-lanka/palm-garden-village-hotel/palm-garden-village-hotel-0.jpeg"></div>
+<div id="box1"><img class="image_gallery1" src="https://t-ec.bstatic.com/images/hotel/max1024x768/128/128407602.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="http://beta.outlooktraveller.com/common/uploads/article/2014/230315175157-Hotel1.jpg">  </div>    
+ <div id="box1"><img class="image_gallery1" src="https://r1imghtlak.mmtcdn.com/d002486e82da11e58fa636cfdd80c293.jfif?interpolation=progressive-bicubic&downsize=700:360&output-quality=50"> </div> 
+                       </div>  
+            <script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("image_gallery1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000); 
+}
+</script>
+       </div>
+        <ul>
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content1">
+           <center><h1>RESORTS IN KOLKATA</h1></center><hr>
+           <div class="main-content">
+      <table>
+          <tr>
+              <td width="30%">
+                          
+           <a href="1468316949_Vedic VillGAE.jpg"> <img class="pics" src="1468316949_Vedic VillGAE.jpg" height="50" width="50"></a><br>
+              </td>
+              <td width="70%">
+                  <h2> Vedic Village Resort</h2>
+                  <p>
+                      <b><i class="fas fa-map-marker"></i>Address:-</b> Shikharpur, P.O - Bagu, Newtown, 
+                      Kolkata, West Bengal 700135<br>
+                      Vedic Village Spa Resort is a hidden gem, nestled in the lap of nature just 20 
+                      minutes away from the international airport in Kolkata, India. Built horizontally
+                      in the authentic architecture of Bengal villages, the world- class luxury resort 
+                      blends in completely with the uniqueness of the landscape. 
+                    </p>
+              </td>    
+          </tr>
+        </table><hr>
+          <table>
+         <tr>
+              <td width="30%">
+                  <a href="anaya-kutir-pool-bungalow.jpg"><img class="pics" src="anaya-kutir-pool-bungalow.jpg" height="50" width="50"></a><br>       
+              </td>
+              <td width="70%">
+                  <h2>F Fort Resort, Raichak</h2>
+                  <p>
+                      <b><i class="fas fa-map-marker"></i>Address:-</b>  District 24 Parganas South, Roychak, West Bengal 743368<br>
+                   The Ffort Raichak has its own mysteries and secrets for you to discover. Have a 
+                   rendezvous with the glorious past while you submerge in fine modern luxury.Designed
+                   as English club houses, the Ffort Villas are luxurious apartments overlooking the 
+                   tennis court and the sprawling North Lawns of The Ffort.    
+                  </p>
+              </td> 
+          </tr>
+          </table><hr>
+          <table>
+          <tr>
+              <td width="30%">
+                  <a href="54191695.jpg"><img class="pics" src="54191695.jpg" height="50" width="50"></a><br>  
+              </td>
+              <td width="70%"><h2>Palm Village, Bhasa</h2>
+                  <p> <b><i class="fas fa-map-marker"></i>Address:-</b>   Bhasa,Bishnupur, Diamond Harbour Road,<br>
+                                 South 24 Parganas,Bhasa,West Bengal-743503<br>
+                   Palm Village is one of the finest vacation resorts located in scenic surroundings
+                      of Kolkata. The resort is surrounded by natural beauty with lush green environment
+                      and an amazing atmosphere away from the chaotic city life, which makes it an ideal
+                      weekend getaway destination.Palm Village offers accommodation 
+                      in six different categories to cater to the different requirements and budget range
+                      of its diverse clientele.  
+                  </p>
+              </td>
+          </tr>
+          </table>
+       
+           </div>
+           <div class="center">
+           <div class="pag">
+               <a href="kol-hotels3.html">&laquo;</a>
+               <a href="kol-hotels.html">1</a>
+               <a href="kol-hotels2.html">2</a>
+               <a href="kol-hotels3.html">3</a>
+               <a href="kol-hotels4.html">4</a>
+               <a href="kol-hotels.html">&raquo;</a>
+           </div>
+           </div>
+       </div> 
+         <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1AczIxp4Mnilg3V9ry1jG_1GkPy2ZvB_c&hl=en" width="640" height="480"></iframe>
+    </body>
+</html>

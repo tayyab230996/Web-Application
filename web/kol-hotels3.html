@@ -1,0 +1,195 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+       <link rel="stylesheet" type="text/css" href="top10.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+            body{
+    background-color: wheat;
+            }             .map{height: 400px;width: 100%;}
+            .center{display: block;text-align: center;margin-left: 500px;margin-bottom:10px;}
+             pag{display: inline-block; margin-bottom: 20px;}
+          .pag a{color: black;float: left;padding: 8px 16px;margin: 0 8px;background-color:transparent;
+                 ;font-size: 25px;font-weight: bold;display: block;border-radius: 10px;
+                text-decoration: none;border: 1px solid black;transition: background-color 0.5s;}
+          .pag a:visited,.pag a:hover{background-color:lightcoral; color:black;}
+
+            h2{text-align: center;}
+            .content{height:auto;margin-bottom: 20px;}
+            .main-content{height:auto;width: 100%;}
+            table{width: 100%;}
+            .pics{height:250px;width: 350px; border: 1px solid black;
+                 display: inline-block;margin-left:50px;margin-right: 30px;
+                }
+                p{font-size: 20px;text-indent: 0px;text-align: justify;}
+            .zoom{text-decoration: none; color:darkblue;} .zoom:hover{font-size: 40px;}
+            .pics:hover{border: 2px solid black;box-shadow: 0 0 10px #0000FF;}
+            </style>
+    </head>
+    <body>
+         <div class="photos">
+           <div id="slider1">
+ <div id="box1"><img class="image_gallery1" src="http://www.dekhoduniya.com/hotels/1468405016_Pune_Welcome-for-Web_4x3-01.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://t-ec.bstatic.com/images/hotel/max1024x768/408/40869410.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://t-ec.bstatic.com/images/hotel/max1024x768/342/34213482.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="http://www.truelocalz.com/wp-content/uploads/2017/03/Hyatt-Regency-Kolkata-Exterior.jpg">  </div>    
+ <div id="box1"><img class="image_gallery1" src="https://s-ec.bstatic.com/images/hotel/max1280x900/131/131386249.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="https://admirablejourneys.com/wp-content/uploads/2018/01/jw.kolkata-4.jpg">  </div>
+<div id="box1"> <img class="image_gallery1" src="https://admirablejourneys.com/wp-content/uploads/2018/01/jw.kolkata-2.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://s-ec.bstatic.com/images/hotel/max1024x768/985/98551107.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="http://cache.marriott.com/marriottassets/marriott/CCUJW/ccujw-kitchen-0029-hor-feat.jpg?downsize=1024px:*"> </div>    
+<div id="box1"><img class="image_gallery1" src="http://ss-gd.com/wp-content/uploads/2017/05/SANSSOUCI_JW_Marriott_Kolkata_India_2.jpg">  </div>    
+ <div id="box1"><img class="image_gallery1" src="http://ss-gd.com/wp-content/uploads/2017/05/SANSSOUCI_JW_Marriott_Kolkata_India_6.jpg"> </div> 
+                       </div>  
+            <script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("image_gallery1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000); 
+}
+</script>
+       </div>
+        <ul>
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content">
+           <center><h1>HOTELS IN KOLKATA</h1></center><hr>
+           <div class="main-content">
+      <table>
+          <tr>
+              <td width="30%">
+                  <a class="zoom" href="Kolkata_Welcome-for-Web_4x3-01.jpg"><img class="pics" src="Kolkata_Welcome-for-Web_4x3-01.jpg" height="50" width="50"></a><br>     
+          
+              </td>
+              <td width="40%">
+                  <h2>THE GATEWAY HOTEL</h2>
+                  <p><b><i class="fas fa-map-marker"></i>Address:-</b><br>
+                     1930,Rajdanga Main Road,Sector F,<br> 
+                     Kolkata-700 107,West Bengal, India<br>
+                     <b>Access:-</b><br>
+                     10 kms from Airport<br>
+                     16 kms from Howrah Railway Station
+                    </p>
+              </td>
+              <td width="30%">
+                  <p>
+                      <b> Accommodation :</b><br>
+                      238 rooms <br>
+                      Conference Room<br>
+                      Executive Club room<br>
+                      Restaurant: 4
+                      
+                     
+                  </p>
+              </td>
+          </tr>
+        </table><hr>
+          <table>
+         <tr>
+              <td width="30%">
+    <a class="zoom" href="Hyatt_Regency_Kolkata.jpg"><img class="pics" src="Hyatt_Regency_Kolkata.jpg" height="50" width="50"></a><br>
+                     
+              </td>
+              <td width="40%">
+                  <h2>HYATT REGENCY KOLKATA</h2>
+                  <p><b><i class="fas fa-map-marker"></i>Address:-</b><br>
+                     JA-1 Sector III,Salt Lake City<br> 
+                     Kolkata-700 098,West Bengal,India<br>
+                     <b>Access:-</b><br>
+                     8 kms from Airport<br>
+                     18 kms from Howrah Railway Station
+                  </p>
+              </td>
+              <td width="30%">
+                  <p>
+                      <b> Accommodation :</b><br>
+                      83 Superior Rooms<br>
+                      13 Luxury Rooms<br>
+                      Executive Conference Room<br>
+                      Restaurant: 3
+         
+                  </p>
+              </td>
+          </tr>
+          </table><hr>
+          <table>
+          <tr>
+              <td width="30%">
+    <a class="zoom" href="41330806.jpg"><img class="pics" src="pride-hotels-nh.jpg" height="50" width="50"></a><br>
+                   
+              </td>
+              <td width="40%"><h2>THE PRIDE</h2>
+                  <p><b><i class="fas fa-map-marker"></i>Address:-</b><br>
+                     B.G-12,Action Area,1-B,New Town<br> 
+                     Kolkata-700 156,West Bengal,India<br>
+                     <b>Access:-</b><br>
+                     24 kms from Airport<br>
+                     04 kms from Howrah Railway Station
+                  </p>
+              </td>
+              <td width="30%">
+                  <p>
+                      <b> Accommodation :</b><br>
+                      85 Deluxe room<br>
+                      47 Luxury Rooms<br>
+                      17 Suites<br>
+                      Restaurant: 3
+                  </p>
+              </td>
+          </tr>
+          </table><hr>
+          <table>
+          <tr>
+              <td width="30%">
+    <a class="zoom" href="121102-JW-Marriott-Kolkata-02.jpg"><img class="pics" src="JW-Marriott-Kolkata.jpg" height="50" width="50"></a><br>
+                      
+              </td>
+              <td width="40%">
+                  <h2>JW MARRIOT</h2>
+                  <p><b><i class="fas fa-map-marker"></i>Address:-</b><br>
+                     4A,J.B.S Haldane Avenue,Tangra<br> 
+                     Kolkata-700 105,West Bengal,India<br>
+                     <b>Access:-</b><br>
+                     18 kms from Airport<br>
+                     15 kms from Howrah Railway Station
+                  </p>
+              </td>
+              <td width="30%">
+                  <p>
+                      <b> Accommodation :</b><br>
+                      90 Classic rooms<br>
+                      56 Deluxe rooms<br>
+                      20 Luxury suites<br>
+                      Restaurant : 5
+                    
+                  </p>
+              </td>
+          </tr>
+      </table>
+           </div>
+           <div class="center">
+           <div class="pag">
+               <a href="kol-hotels2.html">&laquo;</a>
+               <a href="kol-hotels.html">1</a>
+               <a href="kol-hotels2.html">2</a>
+               <a href="kol-hotels3.html">3</a>
+               <a href="kol-hotels4.html">4</a>
+               <a href="kol-hotels4.html">&raquo;</a>
+           </div>
+           </div>
+       </div> 
+         <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1W_nO-IRBZfUFoK8UuF2aCdbsyehbGek6"></iframe>
+    </body>
+</html>

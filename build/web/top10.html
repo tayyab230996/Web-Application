@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet" type="text/css" href="imagegallery.css">
+        <link rel="stylesheet" type="text/css" href="top10.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+            h2{text-align: center;}
+            .content{height:auto;}
+            .content1{height: fit-content; width: fit-content; 
+                     background-color:transparent;}
+            .gallery{height:120px;width: 100%;text-align: center; }
+            .about{width: 100%; height: 400px;resize: vertical;}
+           
+            .category{text-align:center;height: auto;width:200px;margin-right:40px;}
+            p{text-align: justify;text-indent: 80px;line-height:1.5;
+              resize: vertical;letter-spacing:3px;font-size:20px;margin:20px;}
+            #somefacts{font-size: 20px;text-height: auto;text-align:center;letter-spacing: 3px;line-height: 1.5;}
+            .facts{text-decoration: none; color:black;}
+            i{margin: 10px;}
+            #title{height: 10px;}
+            </style>
+    </head>
+    <body>
+        <div class="clip">
+           <img src="Webp.net-gifmaker (1).gif" height="300" width="300">  
+       </div>
+        <ul>
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content">
+           <center><h1>TOP 5 VISIT DESTINATION</h1></center>
+           <div class="content1">
+             <table>
+                 <tr>
+                      <div id="slider1">
+                          <div id="box1">
+                              <img class="image_gallery1" src="_7c42d414-f9fc-11e7-b4bc-5499dc23e9cf.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="Indian-Museum-1.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="marble-palace-kolkata-2a578d1b-3b90-48f9-b4df-4e40395cf63-resize-750.jpeg"></div>
+<div id="box1"><img class="image_gallery1" src="Jorasanko-Thakur-Bari.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="kalibari.jpg">  </div>    
+                           <button class="prew" onclick="plusDivss(-1)"><i class="fas fa-arrow-circle-left fa-5x"></i></button>
+                           <button class="next" onclick="plusDivss(1)"><i class="fas fa-arrow-circle-right fa-5x"></i></button>
+                       </div>   
+                   </td>
+               </tr>
+             </table>
+               <table class="gallery" border="0">
+               <tr>
+                   <td width="40%" id="somefacts">
+                       <h2>Some Facts About City</h2>
+                       <a class="facts" href="history.html"> History of Kolkata</a><br>
+                          <a class="facts" href="importance.html">Importance as a Tourist Destination</a><br>
+                           <a class="facts" href="role.html"> Role as a Commercial Hub of Eastern India</a><br>
+                         <a class="facts" href="community.html"> Community</a><br>
+                          <a class="facts" href="top10.html">  Top 5 Visiting Destinations</a>
+                   </td>
+                   <script>
+var slideIndexs = 1;
+showDivss(slideIndexs);
+plusDivss
+function plusDivss(n) {
+  showDivss(slideIndexs += n);
+}
+
+function showDivss(n) {
+  var i;
+  var x = document.getElementsByClassName("image_gallery1");
+  if (n > x.length) {slideIndexs = 1}    
+  if (n < 1) {slideIndexs = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndexs-1].style.display = "block";  
+}
+setInterval(showDivss(n),100);
+</script>
+                   
+                   <td width="60%"><a href="photo_gallery.html"><h2>Photo Gallery</h2></a>
+            <div id="slider">
+                <div id="box"><img class="image_gallery" src="Kolkata Gate.jpg"> </div>
+            <div id="box"><img class="image_gallery" src="Victoria-Memorial-Kolkata-1024x675.jpg"> </div>
+            <div id="box"><img class="image_gallery" src="Howrah-Bridge-in-Kolkata.jpg"></div>
+            <div id="box"><img class="image_gallery" src="Kolkata-rickshaw-Victoria-Memorial.jpg"></div>
+            <div id="box"><img class="image_gallery" src="Tram-in-Kolkata.jpg"> </div>    
+            <div id="box"><img class="image_gallery" src="India-Victoria-Memorial-Kolkata-West-Bengal-night-city-lights_1920x1080.jpg">  </div>    
+           <div id="box"><img class="image_gallery" src="kolkata-eco-park-37892433.jpg"> </div> 
+            <div id="box"><img class="image_gallery" src="Infinity-Think-Tank-Final.jpg"> </div> 
+             <div id="box"><img class="image_gallery" src="Lib--621x414.jpg"> </div> 
+                           <button class="pre" onclick="plusDivs(-1)"><i class="fas fa-angle-double-left fa-3x"></i></button>
+                           <button class="nxt" onclick="plusDivs(1)"><i class="fas fa-angle-double-right fa-3x"></i></button>
+                       </div>  
+                       <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+plusDivs
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("image_gallery");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+setInterval(showDivs(n),100);
+</script>
+                   </td>
+               </tr>
+               </table>
+           </div>
+       </div>
+    
+        <ul>
+            <li><i class="fas fa-info-circle"></i><a href="aboutus.html">ABOUT US</a></li>
+            <li><i class="fas fa-envelope"></i><a href="contact.html">CONTACT US</a></li>
+           </ul>   
+    </body>
+</html>

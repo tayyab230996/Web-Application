@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet" type="text/css" href="top10.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+            .map{height: 300px;width: 100%;}
+            body{
+   background-color:rgba(251,238,201,0.8);
+    margin: 25px; background-repeat:no-repeat;
+    max-height:available;max-width:available;
+}
+            .center{display: block;text-align: center;margin-left: 600px;margin-bottom:10px;}
+             pag{display: inline-block; margin-bottom: 20px;}
+          .pag a{color: black;float: left;font-size: 35px;
+                 font-weight: bold;display: block;margin-left: 30px;
+                text-decoration: none;transition: background-color 0.5s;
+                }
+           .pag a:visited,.pag a:hover{ color:black;}
+           
+            .content{height:auto;}
+            .main-content{height:auto;width: 100%;}
+            table{width: 100%;}
+            .pics{height:270px;width:370px; border: 1px solid black;
+                 display: inline-block;margin-left:20px;margin-right: 10px;
+                }
+                p{font-size:18px;text-indent: 50px;text-align: justify;color:black;}
+             .zoom{text-decoration: none; color:darkblue;} .zoom:hover{font-size: 40px;}
+            .pics:hover{border: 2px solid black;box-shadow: 0 0 10px #0000FF;}
+            section{text-align: center;font-size: 22px;color: white;}
+            </style>
+    </head>
+    <body>
+        <div class="photos">
+           <div id="slider1">
+                          <div id="box1">
+                              <img class="image_gallery1" src="http://www.detailsoftemples.com/wp-content/uploads/2017/05/Lakshmi-Narayana-Temple.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="http://www.visitortrip.com/370-thickbox_default/dakshineswar-kali-temple.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://c1.staticflickr.com/8/7465/15036149613_57c7e93438_b.jpg"></div>
+   
+  <button class="prew" onclick="plusDivss(-1)"><i class="fas fa-arrow-circle-left fa-5x"></i></button>
+   <button class="next" onclick="plusDivss(1)"><i class="fas fa-arrow-circle-right fa-5x"></i></button>
+                       </div>  
+            <script>
+var slideIndexs = 1;
+showDivss(slideIndexs);
+plusDivss
+function plusDivss(n) {
+  showDivss(slideIndexs += n);
+}
+
+function showDivss(n) {
+  var i;
+  var x = document.getElementsByClassName("image_gallery1");
+  if (n > x.length) {slideIndexs = 1}    
+  if (n < 1) {slideIndexs = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndexs-1].style.display = "block";  
+}
+setInterval(showDivss(n),100);
+</script>
+       </div>
+        <ul>
+   
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content">
+           <center><h1>RELIGIOUS PLACES IN KOLKATA</h1></center><hr>
+           <div class="main-content">
+      <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="https://static.punjabkesari.in/multimedia/2016_10image_10_11_592176263maakali-ll.jpg"><img class="pics" src="https://static.punjabkesari.in/multimedia/2016_10image_10_11_592176263maakali-ll.jpg" height="50" width="50"></a><br>     
+           <section>Click to View in Map</section>
+              </td>
+              <td width="70%">
+                  <h2>Dakshineswar Kali Temple</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>Dakshineswar, Kolkata, West Bengal 700076
+  <p>Dakshineswar Kali Temple is a Hindu temple located in Dakshineswar near Kolkata. Situated on the eastern bank of the Hooghly River, the presiding deity of the temple is Bhavatarini, an aspect of Kali, meaning, 'She who liberates Her devotees from the ocean of existence i.e. Saṃsāra.
+  The temple was built in 1855 by Rani Rashmoni, a philanthropist and a devotee of Kali. The temple is famous for its association with Ramakrishna, a mystic of 19th Century Bengal.</p>
+  
+              </td>
+              
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="https://upload.wikimedia.org/wikipedia/commons/a/a4/Kalighat_temple_with_bazzar.JPG"><img class="pics" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Kalighat_temple_with_bazzar.JPG" height="50" width="50"></a><br>     
+           <section>Click to View in Map</section>
+              </td>
+              <td width="70%">
+                  <h2>Kalighat Kali Temple</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>Anami Sangha, Kalighat, Kolkata, West Bengal 700026
+                  <p>One of the Kolkata's most sacred sites, Kalighat Kali Temple is known as one of the 51 Shakti Peethas on Earth. About 200 years old, this historic temple is dedicated to Hindu Goddess Kali. As legend has it, this is the place where Sati's toes of the right foot fell. Countless devotees, regardless of sectarian differences, visit this holy temple to offer prayers to the goddess. Enhancing the beauty and sanctity of the temple is the Hooghly River's tributary - Adi Ganga that flows right next to it. </p>
+</p>
+              </td> 
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="http://www.bestourism.com/img/items/big/8138/Calcutta-A-beautiful-city-of-India-_Nakhoda-Mosque_15755.jpg"><img class="pics" src="http://www.bestourism.com/img/items/big/8138/Calcutta-A-beautiful-city-of-India-_Nakhoda-Mosque_15755.jpg" height="50" width="50"></a><br>     
+           <section>Click to View in Map</section>
+              </td>
+              <td width="70%">
+                  <h2>Nakhoda Mosque</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>Rabindra Sarani, Kolkata, 700073, West Bengal
+                  <p>The largest mosque in Kolkata-Nakhoda Mosque vies for attention. This fine specimen of Indo-Saracenic architecture, amazes every onlooker with its magnificent exteriors and exquisite interiors. The main entrance of the mosque, made of red sandstone, has resemblance to Buland Darwaza of Fatehpur Sikri. Some parts of the mosque are identical with Emperor Akbar’s Tomb at Sikandra and Khusrau Bagh Monument in Allahabad. 
+</p>
+              </td>  
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="http://farm5.static.flickr.com/4065/4222524461_834d5fc2d9.jpg"><img class="pics" src="http://farm5.static.flickr.com/4065/4222524461_834d5fc2d9.jpg" height="50" width="50"></a><br>     
+           <section>Click to View in Map</section>
+              </td>
+              <td width="70%">
+                  <h2>Birla Temple</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>Ballygunge, Kolkata, 700019, West Bengal
+                  <p>Adding boundless sanctity to 'City of Joy'- Kolkata, the Birla Temple stands favourably on Asutosh Chowdhury Avenue, Ballygunge. It was built by the Birla family in an area of 44 kathas. Started in the year 1970, the construction of the temple took 26 years to complete.Dedicated to Lord Krishna and Goddess Radha, this temple is visited by countless devotees and visitors every year. </p>
+              </td>
+          </tr>
+        </table><hr>
+          
+           </div>
+           <div class="center">
+           <div class="pag">
+               <a href="religiousplaces.html">&cir;</a>
+               <a href="religiousplaces1.html">&cir;</a>
+           </div>
+           </div>
+       </div> 
+        <iframe class="map" src="https://www.google.com/maps/d/embed?mid=18ss4AijAJKnNolgAolgb27Y1Pqx8fDkO" width="640" height="480"></iframe>
+    </body>
+</html>

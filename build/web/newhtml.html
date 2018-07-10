@@ -1,0 +1,148 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet" type="text/css" href="imagegallery.css">
+        <style>
+            h2{text-align: center;}
+            .content{height:auto;}
+            .content1{height: fit-content; width: fit-content; 
+                     background-color:#d2da7a;}
+            .gallery{height:120px;width: 100%;text-align: center; background-color:green;opacity: 0.5;}
+            .about{width: 100%; height: 400px;resize: vertical; }
+           
+            .category{text-align:center;height: auto;width:200px;margin-right:40px;}
+            p{text-align: justify;text-indent: 60px;line-height:1.5;
+              resize: vertical;letter-spacing:3px;font-size:20px;margin:20px;}
+            #somefacts{font-size: 20px;text-height: auto;text-align:center;letter-spacing: 3px;line-height: 1.5;}
+            .facts{text-decoration: none; color:black;}
+            </style>
+    </head>
+    <body>
+        <div class="clip">
+           <img src="Webp.net-gifmaker (1).gif" height="300" width="300">  
+       </div>
+        <ul>
+        <li><a href ="loginpage.html">LOGIN</a></li> 
+       <li><a href ="booking.html">BOOKING</a></li> 
+        <li><a href ="services.html">SERVICES</a></li>
+       <li><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content">
+           <h2>CITY ATTRACTION</h2>
+           <div class="content1">
+             
+             <table class="about" border="0">
+               <tr>
+                   <td width="80%"> <h2>Kolkata City Tour Guide</h2>   
+                       <p>
+                           
+<b>Kolkata</b> is the proud intellectual capital of the country.It used to be the capital of the 
+British East India Company and the evidence of the British colonization persists there in the city.
+The Victoria Memorial is a grand structure constructed in the memory of Queen Victoria.
+This building houses a number of rare specimens of the historical preserves of the land. 
+The Hanging Howrah Bridge is an architectural marvel of the country. The second largest planetarium in Asia, 
+the Birla Planetarium is another site that attracts attention of all The recently built Vidyasagar Setu is 
+another architectural wonder, connects both the banks of the Hooghly River. The Metro Railway, Indian Museum,
+Dalhousie Square, National Library,St. Paul's Cathedral, Shaheed Minar, Eden Garden, Fort William, Rat Park and 
+Marble Palace are some of the other sites of the city that are worth visiting.  <br></p>
+<p>Kolkata City Tours is proud to be a specialized service and the owners have been providing service and creating 
+friendships that cannot be matched by any large-scale corporate tours. We feel that the best way to experience 
+the "City of Joy" is hanging out with someone who's knowledgeable and accommodating. Our guides will provide you 
+with an experience that cannot be achieved by sitting on a bus with scores of other people.All our city tours in 
+Kolkata are assisted by knowledgeable guides, who can speak English, Hindi and Bengali. The vehicles we generally 
+use for Kolkata City Tours and Kolkata sightseeing are:<br>
+Apart from operating Kolkata City Tours, we also offer some associated services like the following:
+
+Hotel bookings in Kolkata: We have very good relationship with some of the best homely hotels and guesthouses in 
+every part of Kolkata. We can arrange bookings for our guests in hotels near to the airport/ railway station and 
+other parts of Kolkata. We also offer free pick-up and drop for our City Tours from our affiliated hotels.
+Excursions around Kolkata: We also arrange for short overnight tours to nearby destinations around Kolkata 
+like Shantiniketan, Sunderban, Murshidabad, Mandarmani and other destinations. We arrange all aspects of the 
+tours from transport to accommodation and sightseeing.
+
+                       </p>
+                   </td>
+                   <td width="20%">
+                       <h3>SEARCH BY CATEGORY</h3>
+                      <center> <select class="category" name="category" id="category">
+                           <option>Select</option>
+                           <option value="parks.html">PARKS</option>
+                           <option>MUSEUM</option>
+                           <option>BRIDGES</option>
+                           <option>MONUMENTS</option>
+                           <option>HERITAGE BUILDINGS</option>
+                           <option>RELIGIOUS PLACES</option>
+                           <option>EDUCATIONAL</option>
+                           <option>FAMOUS STREETS</option>
+                           <option>NATURE</option>
+                          </select></center>
+                   </td>
+               </tr>
+               <script type="text/javascript">
+ var urlmenu = document.getElementById( 'category' );
+ urlmenu.onchange = function() {
+      window.open(  this.options[ this.selectedIndex ].value );
+ };
+</script>
+             </table>
+               <table class="gallery" border="0">
+               <tr>
+                   <td width="40%" id="somefacts">
+                       <h2>Some Facts About City</h2>
+                       <a class="facts" href="history.html"> History of Kolkata</a><br>
+                          <a class="facts" href="importance.html">Importance as a Tourist Destination</a><br>
+                           <a class="facts" href="role.html"> Role as a Commercial Hub of Eastern India</a><br>
+                          <a class="facts" href="top10.html">  Top 10 Visiting Destinations</a>
+                   </td>
+                   <td width="60%"><h2>Photo Gallery</h2>
+                       <div id="slider">
+                        <div id="box">
+                            <img class="image_gallery" src="Kolkata-flyover.jpg">
+                            </div>
+                            <div id="box">
+                            <img class="image_gallery" src="Tram-in-Kolkata.jpg">
+                            </div>
+                            <div id="box">
+                            <img class="image_gallery" src="Kolkata-flyover.jpg">
+                        </div>
+                           <button class="pre" onclick="prewImage()"><b>pre</b></button>
+                           <button class="nxt" onclick="nextImage()"><b>next</b></button>
+                       </div>  
+                       <script type="text/javascript">
+                           var slider_content=document.getElementId('box');
+                           var image=['a','b','c','d','e'];
+                           var i=image.length;
+                           function nextImage()
+                           {
+                               if(i<image.length)
+                               {
+                                   i=i+1;
+                               }else{
+                                   i=1;
+                               }
+                               slider_content.imageHTML="<img src="+image[i-1]+".jpg>";
+                           }
+                            function prewImage()
+                           {
+                               if(i<image.length+1 && i>1)
+                               {
+                                   i=i-1;
+                               }else{
+                                   i=image.length;
+                               }
+                               slider_content.imageHTML="<img src="+image[i-1]+".jpg>";
+                           }
+                       </script>
+                   </td>
+               </tr>
+               </table>
+           </div>
+       </div>
+    
+        <ul>
+               <li>ABOUT US</li>
+               <li>FAQ</li>
+               <li>CONTACT US</li>
+           </ul>   
+    </body>
+</html>

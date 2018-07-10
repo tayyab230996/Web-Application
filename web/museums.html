@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet" type="text/css" href="top10.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+            body{
+ background-color:rgba(251,238,201,0.8);
+   
+    margin: 25px; background-repeat:no-repeat;
+    max-height:available;max-width:available;
+}
+            .center{display: block;text-align: center;margin-left: 500px;margin-bottom:10px;}
+             pag{display: inline-block; margin-bottom: 20px;}
+          .pag a{color: black;float: left;padding: 8px 16px;margin: 0 8px;font-size: 25px;
+                 font-weight: bold;display: block;border-radius: 10px;background-color: rgba(0,0,0,0.2);
+                text-decoration: none;border: 1px solid black;transition: background-color 0.5s;
+                }
+           .pag a:visited,.pag a:hover{background-color:rgba(0,0,0,0.5); color: white;}
+           
+            .content{height:auto;}
+            .main-content{height:auto;width: 100%;}
+            table{width: 100%;}
+            .pics{height:270px;width:370px; border: 1px solid black;
+                 display: inline-block;margin-left:10px;margin-right: 10px;
+                }
+                p{font-size:18px;text-indent: 0px;text-align: justify;color:black;}
+             .zoom{text-decoration: none; color:skyblue;} .zoom:hover{font-size: 40px;}
+            .pics:hover{border: 2px solid black;box-shadow: 0 0 10px #0000FF;}
+            section{text-align: center;font-size: 22px;color: white;}
+            </style>
+    </head>
+    <body>
+        <div class="photos">
+           <div id="slider1">
+                          <div id="box1">
+ <img class="image_gallery1" src="https://images.mapsofindia.com/my-india/indian-museum-665x444.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="http://4.bp.blogspot.com/-WRGYShO3Yh0/UXf-YyFkPvI/AAAAAAAARLk/J8LSO3o1WHs/s1600/indianmuseumanimals-01.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="marble-palace-kolkata-2a578d1b-3b90-48f9-b4df-4e40395cf63-resize-750.jpeg"></div>
+<div id="box1"><img class="image_gallery1" src="https://i.ytimg.com/vi/5F8MZfqBTB0/maxresdefault.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/State_Archaeological_Museum_-_1_Satyen_Roy_Road_-_Behala_-_Kolkata_2015-12-12_7779-7782.tiff/lossy-page1-1200px-State_Archaeological_Museum_-_1_Satyen_Roy_Road_-_Behala_-_Kolkata_2015-12-12_7779-7782.tiff.jpg">  </div>    
+<div id="box1"><img class="image_gallery1" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Exhibition_Disaster_-_Birla_Industrial_%26_Technological_Museum_-_Kolkata_2012-05-02_9886.JPG"> </div>    
+<div id="box1"><img class="image_gallery1" src="https://upload.wikimedia.org/wikipedia/commons/5/58/Birla_Industrial_%26_Technological_Museum_-_Mathematics_Gallery_-_Kolkata_2011-03-03_1860.JPG">  </div> 
+<div id="box1"><img class="image_gallery1" src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Mock-up_Coal_Mine_-_Birla_Industrial_%26_Technological_Museum_-_Kolkata_2010-06-18_6133.JPG"> </div>    
+<div id="box1"><img class="image_gallery1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Fiat_Zero_blue.jpg/1200px-Fiat_Zero_blue.jpg">  </div> 
+<div id="box1"><img class="image_gallery1" src="http://c1.hiqcdn.com/customcdn/768x512/destreviewimages/1484127453_rotates_shareiq_418_1484127135.934215.jpg"> </div>    
+
+  <button class="prew" onclick="plusDivss(-1)"><i class="fas fa-arrow-circle-left fa-5x"></i></button>
+   <button class="next" onclick="plusDivss(1)"><i class="fas fa-arrow-circle-right fa-5x"></i></button>
+                       </div>  
+            <script>
+var slideIndexs = 1;
+showDivss(slideIndexs);
+plusDivss
+function plusDivss(n) {
+  showDivss(slideIndexs += n);
+}
+
+function showDivss(n) {
+  var i;
+  var x = document.getElementsByClassName("image_gallery1");
+  if (n > x.length) {slideIndexs = 1}    
+  if (n < 1) {slideIndexs = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndexs-1].style.display = "block";  
+}
+setInterval(showDivss(n),100);
+</script>
+       </div>
+        <ul>
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content">
+           <center><h1>MUSEUMS IN KOLKATA</h1></center><hr>
+           <div class="main-content">
+      <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="https://d23xcmtliku0ki.cloudfront.net/wp-content/uploads/2018/02/21023921/museum.jpg"><img class="pics" src="https://d23xcmtliku0ki.cloudfront.net/wp-content/uploads/2018/02/21023921/museum.jpg" height="50" width="50"></a><br>     
+          
+              </td>
+              <td width="70%">
+                  <h2>Indian Museum (Jadu Ghar)</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>27,Jawaharlal Nehru Road,Park Street,Kolkata-700016,West Bengal
+  <p>The Indian Museum of Kolkata is the earliest establishment of its category in the Indian subcontinent. It was amongst the initial attempts to preserve the heritage of the country and to acquaint people with its splendour. The idea of setting up this museum was proposed in 1796 by members of Bengal's Asiatic Society, which took shape in 1808 with the occupancy of a government-granted land. The museum was finally established in 1814, wherein it commenced the process of safeguarding the rich Indian heritage.Locals refer to this fascinating museum as Jadu Ghar, which means 'house of magic' on translation.</p>
+  
+              </td>
+              
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="https://c1.hiqcdn.com/customcdn/720x512/images/attractions/State_Archaeological_Museum_Kolkata_18437.jpg"><img class="pics" src="https://c1.hiqcdn.com/customcdn/720x512/images/attractions/State_Archaeological_Museum_Kolkata_18437.jpg" height="50" width="50"></a><br>     
+   
+              </td>
+              <td width="70%">
+                  <h2>State Archaeological Museum</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>33, Chittaranjan Avenue, Kolkata-700013, West Bengal
+                  <p>Established in the year 1962, State Archaeological Museum is one of the finest attractions in Kolkata. A place worth visiting for history lovers, State Archaeological Museum houses a wide collection of rare tools that belonged to the Early, Middle and the Late Stone Ages. Proto-historic antiquities collected from Pandu Rajar Dhibi (Burdwan) and unique terracotta, sculptures, stucco and sculptures from the erstwhile Gupta, Kushana, Maurya, Sunga, Pala and Medieval times are some of the museum's proud possessions. The museum's Historical Art section, which was opened in 1963 bears a huge assortment of items like old terracotta, textiles, bronzes, wood-carvings and manuscripts.
+</p>
+              </td> 
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="http://www.letusgo.co.in/wp-content/uploads/2017/11/20171101_170151-1.jpg"><img class="pics" src="http://www.letusgo.co.in/wp-content/uploads/2017/11/20171101_170151-1.jpg" height="50" width="50"></a><br>     
+      
+              </td>
+              <td width="70%">
+                  <h2>Birla Industrial & Technological Museum </h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>19 A,Gurusaday Road,Kolkata-700019, West Bengal
+                  <p>Kolkata's list of top attractions always includes the Birla Industrial & Technological Museum. Functioning under the National Council of Science Museums (NCSM), it houses 12 galleries that display various models and structures pertaining to diverse subjects like metals, physics, television, transport, mathematics, biotechnology, life science and more. It was established on 2nd May 1959 with the aim of popularising science and technology, collecting and preserving historical objects, and portraying the development of science and technology in a suitable manner. </p>
+              </td>  
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="https://upload.wikimedia.org/wikipedia/commons/e/e1/Mother%27s_Wax_Museum%2C_New_Town.jpg"><img class="pics" src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Mother%27s_Wax_Museum%2C_New_Town.jpg" height="50" width="50"></a><br>     
+        
+              </td>
+              <td width="70%">
+                  <h2>Mother's Wax Museum</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b> 6th & 5th Floor,Finance Centre, CBD-I,Action Area - II,Opposite to Eco Park Gate no. 2, New Town, Kolkata-700156,West Bengal.
+                  <p>Mother's Wax Museum is a wax museum located in New Town, Kolkata, India. Established in November 2014, it contains wax statues of more than 19 famous personalities.The museum has been named after Mother Teresa.</p>
+          </tr>
+        </table><hr>
+          
+           </div>
+           
+       </div> 
+    </body>
+</html>

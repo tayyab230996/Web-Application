@@ -1,0 +1,25 @@
+
+        <div class="photos">     
+                   <div id="box1">
+  <img class="image_gallery1" src="PicsArt_1425557555426.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="033.jpg"></div>
+
+<div id="box1"><img class="image_gallery1" src="oie_1321512gelpx9Z.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="79305-ufovuhholh-1516117378.jpg">  </div>     
+            <script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("image_gallery1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000); 
+}
+</script>
+           </div>

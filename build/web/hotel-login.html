@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <style>
+            .login-form{
+                border-radius: 10px;
+                background-color: #f2f2f2; width:40%; height:250px;
+                align-content: space-between;
+                margin:20px;
+                padding-bottom: 5px;
+                padding-top: 5px;
+                border: 2px solid #1ab39f;
+                text-align: center;
+                font-size: 20px;
+                color:darkred;
+            }
+            .login-form:hover{font-weight: bolder;border-color: #1ab39f;}
+            .field{
+                padding: 10px;
+                margin:2px;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;}
+            
+            .field:hover{
+                background-color:#d2da7a;
+                color: darkblue;
+                transition-duration: 2s;
+            }
+            .travel-link:link, .travel-link:visited{
+                text-align: center;
+                text-decoration: none;
+                font-size: 16px;
+                padding: 14px 25px;
+               background-color:#aebad5;
+               display: inline-block;
+               color: #1b587c;
+            }
+            .travel-link:hover{
+                display: inline-block;
+                background-color:#d2da7a ;
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+            .logintable{
+              margin-top: 30px;
+            }
+            #td1{
+                text-align: left;
+                padding-left: 80px;
+                padding-right: 40px;
+                font: 18px sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="clip">
+            <img src="Webp.net-gifmaker (1).gif" height="300" width="300">  
+        </div>
+        <ul>
+           <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+        </ul>  
+
+        <div class="content">
+
+            <center>
+                <form class="login-form">
+                    <table class="logintable">
+                <tr>
+                    <td id="td1">USER ID</td>
+                    <td><input class="field" type="text" placeholder="enter you id" name="t-id"></td>
+                </tr> 
+                  <tr>
+                      <td id="td1">PASSWORD</td>
+                      <td><input class="field" type="password" placeholder="enetr password" name="t-pass"></td>
+                  </tr>
+                  <tr>
+                    <td id="td1">RETYPE PASSWORD</td>
+                    <td><input class="field" type="password" placeholder="enetr password" name="t-repass"></td>
+                  </tr>
+                  </table><br>
+                  <div class="link">
+                   <a class="travel-link" href="hotel-home.html">Login</a>
+                   <a class="travel-link" href="hotel-reg.html" target="_blank">New User..?</a>
+                    <a class=" travel-link" href="forgetpass.html">Forget Password</a>
+                  </div>
+                </form>
+            </center>
+        </div>
+
+        <ul>
+            <li><i class="fas fa-sign-out-alt"></i>Logout</li>
+            <li><i class="fas fa-info-circle"></i><a href="aboutus.html">ABOUT US</a></li>
+            <li><i class="fas fa-envelope"></i><a href="contact.html">CONTACT US</a></li>
+        </ul>   
+    </body>
+</html>

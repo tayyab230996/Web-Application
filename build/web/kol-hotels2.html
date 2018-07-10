@@ -1,0 +1,196 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+       <link rel="stylesheet" type="text/css" href="top10.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+            body{
+    background-color:wheat;
+            }           
+            .map{height: 400px;width: 100%;}
+            .center{display: block;text-align: center;margin-left: 500px;margin-bottom:10px;}
+             pag{display: inline-block; margin-bottom: 20px;}
+          .pag a{color: black;float: left;padding: 8px 16px;margin: 0 8px;background-color:transparent;
+                 ;font-size: 25px;font-weight: bold;display: block;border-radius: 10px;
+                text-decoration: none;border: 1px solid black;transition: background-color 0.5s; }
+          .pag a:visited,.pag a:hover{background-color:lightcoral; color:black;}
+
+            h2{text-align: center;}
+            .content{height:auto;margin-bottom: 20px;}
+            .main-content{height:auto;width: 100%;}
+            table{width: 100%;}
+            .pics{height:250px;width: 350px; border: 1px solid black;
+                 display: inline-block;margin-left:50px;margin-right: 30px;
+                }
+                p{font-size: 20px;text-indent: 0px;text-align: justify;}
+                .zoom{text-decoration: none; color:darkblue;} .zoom:hover{font-size: 40px;}
+            .pics:hover{border: 2px solid black;box-shadow: 0 0 10px #0000FF;}
+            </style>
+    </head>
+    <body>
+         <div class="photos">
+           <div id="slider1">
+ <div id="box1"> <img class="image_gallery1" src="https://images.trvl-media.com/hotels/8000000/7900000/7897900/7897848/7897848_109_z.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="http://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/17/2016/10/19040727/Le-Jardin-3.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://t-ec.bstatic.com/images/hotel/max1024x768/370/37095404.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="https://d16qahy4nl760o.cloudfront.net/liveinstyle/files/images/ee/IMG_0048.jpg">  </div>    
+ <div id="box1"><img class="image_gallery1" src="https://images.trvl-media.com/hotels/2000000/1070000/1066400/1066383/982d9491_z.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="https://s-ec.bstatic.com/images/hotel/max1280x900/160/16071601.jpg">  </div> 
+<div id="box1"> <img class="image_gallery1" src="https://t-ec.bstatic.com/images/hotel/max1024x768/203/20360118.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://t-ec.bstatic.com/images/hotel/max1024x768/165/16552075.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://www.flavoursclub.com/public/uploads/food-beverages-images/cover-images/0e54a64e855d41333134654730a4efcf.jpg"> </div>    
+            <script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("image_gallery1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000); 
+}
+</script>
+       </div>
+ 
+        <ul>
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content">
+           <center><h1>HOTELS IN KOLKATA</h1></center><hr>
+           <div class="main-content">
+      <table>
+          <tr>
+              <td width="30%">
+     <a class="zoom" href="l_3ec4331d8088343490ca18cdf4e9d975.jpg"><img class="pics" src="l_3ec4331d8088343490ca18cdf4e9d975.jpg" height="50" width="50"></a><br>     
+          
+              </td>
+              <td width="40%">
+                  <h2>HINDUSTAN INTERNATIONAL</h2>
+                  <p><b><i class="fas fa-map-marker"></i>Address:-</b><br>
+                        235/1 A J C Bose Road<br> 
+                     Kolkata - 700 020,West Bengal,India<br>
+                     <b>Access:-</b><br>
+                     15 kms from Airport<br>
+                     05 kms from Howrah Railway Station
+                    </p>
+              </td>
+              <td width="30%">
+                  <p>
+                      <b> Accommodation :</b><br>
+                      238 rooms <br>
+                      Imperial rooms<br>
+                      Executive Club room<br>
+                      Restaurant: 2<br>
+                      Bar
+                      Swimming pool
+                     
+                  </p>
+              </td>
+          </tr>
+        </table><hr>
+          <table>
+         <tr>
+              <td width="30%">
+    <a class="zoom" href="20150624140756.jpg"><img class="pics" src="20150624140756.jpg" height="50" width="50"></a><br>
+                     
+              </td>
+              <td width="40%">
+                  <h2>THE KENILWORTH</h2>
+                  <p><b><i class="fas fa-map-marker"></i>Address:-</b><br>
+                     1 & 2, Little Russel Street<br> 
+                     Kolkata - 700 071,West Bengal,India<br>
+                     <b>Access:-</b><br>
+                     12 kms from Airport<br>
+                     05 kms from Howrah Railway Station
+                  </p>
+              </td>
+              <td width="30%">
+                  <p>
+                      <b> Accommodation :</b><br>
+                      93 Executive rooms<br>
+                      05 Premier Club rooms<br>
+                      05 Executive suites<br>
+                      Restaurant: 3<br>
+                      Bar
+                      Swimming pool
+                  </p>
+              </td>
+          </tr>
+          </table><hr>
+          <table>
+          <tr>
+              <td width="30%">
+     <a class="zoom" href="982d9491_z.jpg"><img class="pics" src="982d9491_z.jpg" height="50" width="50"></a><br>
+                   
+              </td>
+              <td width="40%"><h2>THE PEERLESS IN</h2>
+                  <p><b><i class="fas fa-map-marker"></i>Address:-</b><br>
+                     12, J L Nehru Road <br> 
+                     Kolkata - 700 013,West Bengal,India<br>
+                     <b>Access:-</b><br>
+                     20 kms from Airport<br>
+                     05 kms from Howrah Railway Station
+                  </p>
+              </td>
+              <td width="30%">
+                  <p>
+                      <b> Accommodation :</b><br>
+                      85 Deluxe room<br>
+                      47 Luxury Rooms<br>
+                      17 Suites<br>
+                      Restaurant: 3
+                  </p>
+              </td>
+          </tr>
+          </table><hr>
+          <table>
+          <tr>
+              <td width="30%">
+      <a class="zoom" href="6937_ho_00_p_2048x1536.jpg"> <img class="pics" src="6937_ho_00_p_2048x1536.jpg" height="50" width="50"></a><br>
+                      
+              </td>
+              <td width="40%">
+                  <h2>NOVOTEL </h2>
+                  <p><b><i class="fas fa-map-marker"></i>Address:-</b><br>
+                     CF 11 Action Area 1C,Newtown<br> 
+                     Kolkata - 700 156,West Bengal,India<br>
+                     <b>Access:-</b><br>
+                     05 kms from Airport<br>
+                     25 kms from Howrah Railway Station
+                  </p>
+              </td>
+              <td width="30%">
+                  <p>
+                      <b> Accommodation :</b><br>
+                      43 Classic rooms<br>
+                      87 Deluxe rooms<br>
+                      03 Luxury suites<br>
+                      Restaurant : 2
+                    
+                  </p>
+              </td>
+          </tr>
+      </table> 
+           </div>
+           <div class="center">
+           <div class="pag">
+               <a href="kol-hotels.html">&laquo;</a>
+               <a href="kol-hotels.html">1</a>
+               <a href="kol-hotels2.html">2</a>
+               <a href="kol-hotels3.html">3</a>
+               <a href="kol-hotels4.html">4</a>
+               <a href="kol-hotels3.html">&raquo;</a>
+           </div>
+           </div>
+       </div> 
+         <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1W_nO-IRBZfUFoK8UuF2aCdbsyehbGek6"></iframe>
+    </body>
+</html>

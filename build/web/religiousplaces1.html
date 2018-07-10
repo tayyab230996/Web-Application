@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet" type="text/css" href="top10.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+            .map{height: 300px;width: 100%;}
+            body{
+   background-color:rgba(251,238,201,0.8);
+   
+    margin: 25px; background-repeat:no-repeat;
+    max-height:available;max-width:available;
+}
+            .center{display: block;text-align: center;margin-left: 600px;margin-bottom:10px;}
+             pag{display: inline-block; margin-bottom: 20px;}
+          .pag a{color: black;float: left;font-size: 35px;
+                 font-weight: bold;display: block;margin-left: 30px;
+                text-decoration: none;transition: background-color 0.5s;
+                }
+           .pag a:visited,.pag a:hover{ color:black;}
+           
+            .content{height:auto;}
+            .main-content{height:auto;width: 100%;}
+            table{width: 100%;}
+            .pics{height:270px;width:370px; border: 1px solid black;
+                 display: inline-block;margin-left:20px;margin-right: 10px;
+                }
+                p{font-size:18px;text-indent: 50px;text-align: justify;color:black;}
+             .zoom{text-decoration: none; color:darkblue;} .zoom:hover{font-size: 40px;}
+            .pics:hover{border: 2px solid black;box-shadow: 0 0 10px #0000FF;}
+            section{text-align: center;font-size: 22px;color: white;}
+            </style>
+    </head>
+    <body>
+        <div class="photos">
+           <div id="slider1">
+                          <div id="box1">
+  <img class="image_gallery1" src="_7c42d414-f9fc-11e7-b4bc-5499dc23e9cf.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="Indian-Museum-1.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="marble-palace-kolkata-2a578d1b-3b90-48f9-b4df-4e40395cf63-resize-750.jpeg"></div>
+<div id="box1"><img class="image_gallery1" src="Jorasanko-Thakur-Bari.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="kalibari.jpg">  </div>    
+  <button class="prew" onclick="plusDivss(-1)"><i class="fas fa-arrow-circle-left fa-5x"></i></button>
+   <button class="next" onclick="plusDivss(1)"><i class="fas fa-arrow-circle-right fa-5x"></i></button>
+                       </div>  
+            <script>
+var slideIndexs = 1;
+showDivss(slideIndexs);
+plusDivss
+function plusDivss(n) {
+  showDivss(slideIndexs += n);
+}
+
+function showDivss(n) {
+  var i;
+  var x = document.getElementsByClassName("image_gallery1");
+  if (n > x.length) {slideIndexs = 1}    
+  if (n < 1) {slideIndexs = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndexs-1].style.display = "block";  
+}
+setInterval(showDivss(n),100);
+</script>
+       </div>
+        <ul>
+     
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content">
+           <center><h1><a class="zoom" href="hotel-map.html">RELIGIOUS PLACES IN KOLKATA</a></h1></center><hr>
+           <div class="main-content">
+      <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="f3c2004e33367f63ae54188106002a98.jpg"><img class="pics" src="f3c2004e33367f63ae54188106002a98.jpg" height="50" width="50"></a><br>     
+           <section>Click to View in Map</section>
+              </td>
+              <td width="70%">
+                  <h2>Pareshwanath Temple</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>Jiban Krishna Ghosh Road,Tala, Kolkata-700088, West Bengal<br>
+  Pareshwanath Temple, popularly called as Calcutta Jain Temple, is one of the major places of religious importance in Kolkata. Featuring four temples within the complex, this place of worship is dedicated to the 23rd Jain Tirthankar-Pareshwanath.The temple shows off truly impressive architecture features. The exteriors, which are characterised by mirror-inlaid pillars and stained glass windows, are bound to amaze you.  </p>
+  
+              </td>
+              
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="f3c2004e33367f63ae54188106002a98.jpg"><img class="pics" src="f3c2004e33367f63ae54188106002a98.jpg" height="50" width="50"></a><br>     
+           <section>Click to View in Map</section>
+              </td>
+              <td width="70%">
+                  <h2>Tipu Sultan Mosque</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>185, Lenin Sarani, Chandni Chawk, Bowbazar, Kolkata, West Bengal 700013<br>
+                  Located strategically on Dharmatala Street, Tipu Sultan Mosque is a renowned place of religious importance. More than 180 years old, this history-rich edifice boasts of impressive Islamic (Mughal) architecture. Unlike many Islamic places of worship, this mosque allows people of all religions and sections of society to enter the premises. </p>
+              </td> 
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="f3c2004e33367f63ae54188106002a98.jpg"><img class="pics" src="f3c2004e33367f63ae54188106002a98.jpg" height="50" width="50"></a><br>     
+           <section>Click to View in Map</section>
+              </td>
+              <td width="70%">
+                  <h2>St. John's Church</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>Kiran Shankar Roy Road, B B D Bagh, Kolkata-700001, West Bengal
+                  <p>Quaint, religiously significant and utterly magnificent - St. John's Church is one of Kolkata' s most-visited attractions. Established in 1787, this is the third oldest church and among the first public buildings built by the East India Company in Kolkata. It served as Kolkata's Anglican Cathedral until it was transferred to St. Paul’s Cathedral in the year 1847. </p>
+              </td>  
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="f3c2004e33367f63ae54188106002a98.jpg"><img class="pics" src="f3c2004e33367f63ae54188106002a98.jpg" height="50" width="50"></a><br>     
+           <section>Click to View in Map</section>
+              </td>
+              <td width="70%">
+                  <h2>St Paul's Cathedral</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>1A, Cathedral Road, Kolkata-700071, West Bengal
+                  <p>St Paul's Cathedral is a celebrated Christian shrine in the culturally rich city of Kolkata. Built between 1839 and 1847, it was the first Episcopal Church of the Orient. The beautiful religious edifice lies towards the southern tip of Maidan, which is a sprawling park and landmark in the city. It was constructed under the patronage of Bishop Wilson and designed in an Indo-Gothic style by Major W.N. Forbes. </p>
+              </td>
+          </tr>
+        </table><hr>
+          
+           </div>
+           <div class="center">
+           <div class="pag">
+               <a href="religiousplaces.html">&cir;</a>
+               <a href="religiousplaces1.html">&cir;</a>
+           </div>
+           </div>
+       </div> 
+        <iframe class="map" src="https://www.google.com/maps/d/embed?mid=18ss4AijAJKnNolgAolgb27Y1Pqx8fDkO" width="640" height="480"></iframe>
+    </body>
+</html>

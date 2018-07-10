@@ -1,0 +1,32 @@
+.image_gallery1{
+    width:1300px;
+    height:600px;border-radius: 20px;
+}
+
+#box1{position: absolute;height: 100%;width: 100%;}
+#slider1{
+    width: 1300px;
+    height: 600px;
+    margin: 20px auto;
+    position: relative;
+    border: 2px solid white;border-radius: 20px;
+   box-shadow:0 0 10px black, 0 0 10px black;
+}
+#slider1:hover{
+border: 1px solid white;border-radius: 20px;
+   box-shadow:0 0 200px black, 0 0 15px black;}
+button{
+    padding:15px;
+    border: none;
+    background-color:transparent;
+    position: absolute;
+    top:45%;
+    color: threedshadow;
+    font-size: 10px;
+    cursor: pointer;
+    
+}
+.next{border-radius: 0px 10px 10px 0px;margin-left: 1200px;}
+.prew{border-radius: 10px 0px 0px 10px;}
+a{text-decoration: none;color: darkred;}
+       

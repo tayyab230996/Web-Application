@@ -1,0 +1,145 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+         <link rel="stylesheet" type="text/css" href="top10.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+            body{
+   background-color:rgba(251,238,201,0.8);
+    
+    margin: 25px; background-repeat:no-repeat;
+    max-height:available;max-width:available;
+}
+            .center{display: block;text-align: center;margin-left: 500px;margin-bottom:10px;}
+             pag{display: inline-block; margin-bottom: 20px;}
+          .pag a{color: black;float: left;padding: 8px 16px;margin: 0 8px;font-size: 25px;
+                 font-weight: bold;display: block;border-radius: 10px;background-color: rgba(0,0,0,0.2);
+                text-decoration: none;border: 1px solid black;transition: background-color 0.5s;
+                }
+           .pag a:visited,.pag a:hover{background-color:rgba(0,0,0,0.5); color: white;}
+          
+            .content{height:auto;}
+            .main-content{height:auto;width: 100%;}
+            table{width: 100%;}
+            .pics{height:250px;width: 350px; border: 1px solid black;
+                 display: inline-block;margin-left:20px;margin-right: 10px;
+                }
+                p{font-size:18px;text-indent: 50px;text-align: justify;color: black;}
+             .zoom{text-decoration: none; color:skyblue;} .zoom:hover{font-size: 40px;}
+            .pics:hover{border: 2px solid black;box-shadow: 0 0 10px #0000FF;}
+            .map{height: 200px;width: 200px;}
+            section{text-align: center;font-size: 22px;color: white;}
+            </style>
+    </head>
+    <body>
+        <div class="photos">
+           <div id="slider1">
+                          <div id="box1">
+  <img class="image_gallery1" src="https://i.ytimg.com/vi/bAVBUWKLa9M/maxresdefault.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://i.ytimg.com/vi/aaTqkJ1w5_I/maxresdefault.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://in.bookmyshow.com/entertainment-news/wp-content/uploads/2017/10/Aquatica-3-e1507187436365-810x565.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Gate_Complex_-_Science_City_-_Kolkata_2011-07-13_3910.JPG"> </div>    
+<div id="box1"><img class="image_gallery1" src="https://i.ytimg.com/vi/c5w1uAkkN0A/maxresdefault.jpg">  </div>    
+<div id="box1"><img class="image_gallery1" src="https://www.99acres.com/microsite/articles/files/2017/02/Interior_-_Earth_Exploration_Hall_-_Science_City_-_Kolkata_2013-11-28_0806.jpg">  </div>
+
+ <button class="prew" onclick="plusDivss(-1)"><i class="fas fa-arrow-circle-left fa-5x"></i></button>
+   <button class="next" onclick="plusDivss(1)"><i class="fas fa-arrow-circle-right fa-5x"></i></button>
+                       </div>  
+          <script>
+var slideIndexs = 1;
+showDivss(slideIndexs);
+plusDivss
+function plusDivss(n) {
+  showDivss(slideIndexs += n);
+}
+
+function showDivss(n) {
+  var i;
+  var x = document.getElementsByClassName("image_gallery1");
+  if (n > x.length) {slideIndexs = 1}    
+  if (n < 1) {slideIndexs = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndexs-1].style.display = "block";  
+}
+setInterval(showDivss(n),100);
+</script>  
+       </div>
+        <ul>
+
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content">
+           <center><h1>THEME PARKS IN KOLKATA</h1></center><hr>
+           <div class="main-content">
+      <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="https://images.mapsofindia.com/my-india/nico-park-665x444.jpg"><img class="pics" src="https://images.mapsofindia.com/my-india/nico-park-665x444.jpg" height="50" width="50"></a><br>     
+
+              </td>
+              <td width="70%">
+                  <h2>Nicco Park</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>
+                  Sector IV,Salt Lake City,
+                  Kolkata-700106,West Bengal</p>
+  <p>A joint venture of Nicco Corporation and the Government of West Bengal, Nicco Park features over 35 attractions. Among the rides, Water Chute, Cable Car, Water Coaster, Family Carousel, Pirate Ship, Toy Train, Striking Cars and Bumping Boat are worth trying. Merry Go Round, Water Merry Go Round, Caterpillar and Twist-&-Turn are rides that children won't want to miss. For an utterly exhilarating experience, try 'Cyclone - The Roller Coaster' ride - the biggest wooden roller coaster in the country that runs on a 750-metre long track. 'Scaree'- the ghost house and 'River Cave Ride' are other rides that would definitely give you a hair-raising experience.</p>
+  
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="http://www.nearbylocation.in/wp-content/uploads/2016/06/Aquatica.jpg"><img class="pics" src="http://www.nearbylocation.in/wp-content/uploads/2016/06/Aquatica.jpg" height="50" width="50"></a><br>     
+          
+              </td>
+              <td width="70%">
+                  <h2>Aquatica Water Park</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>
+                  Hatgachia,24 Parganas(S),Kolkata-700156,West Bengal</p>
+                  <p>One-of-its-kind in the whole of eastern India, this unmissable attraction is located strategically at Kochpukur, close to Kolkata New Township. Approximately 75,000 sq-ft of the park is the pool area that offers you a range of water rides and slides.Some of the many exciting water rides here are Black Hole, Surf Racer, Tornado, Wave Pool, Mountain River and Mississippi Ride. One of the most enthralling features of Aquatica Water Park is the beautiful dance floor named 'Aqua Dance' that is fitted with water jets on the surface. </p>
+              
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="http://www.excitingindia.in/wp-content/uploads/2017/02/Science-City-Banner-for-Exciting-india-720x415.jpg"><img class="pics" src="http://www.excitingindia.in/wp-content/uploads/2017/02/Science-City-Banner-for-Exciting-india-720x415.jpg" height="50" width="50"></a><br>     
+       
+              </td>
+              <td width="70%">
+                  <h2>Science City</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>
+                  J.B.S Haldane Avenue, Kolkata-700046, West Bengal</p>
+                  <p>The largest of its kind in the Indian subcontinent, the Science City operates under the National Council of Science Museums (NCSM), Ministry of Culture, Government of India. 
+                  naugurated on 1st July 1997 by the then Prime Minister Inder Kumar Gujral, this centre features several galleries and halls, each of which educates visitors about both heard and unheard scientific principles. 
+                  Measuring approximately 1300 sq m in area, the Evolution Park features 7 large walkways, 71 robotic pre-historic animals, 140 early plant models and 26 dinosaurs – making it an attraction in itself. </p>
+              </td>
+            
+          </tr>
+        </table><hr>
+        <table>
+         <tr>
+              <td width="30%">
+                  <a  class="zoom" href="https://www.makemytrip.com/travel-guide/media/dg_image/kolkata/Millennium-Park_kolkata.jpg"><img class="pics" src="https://www.makemytrip.com/travel-guide/media/dg_image/kolkata/Millennium-Park_kolkata.jpg" height="50" width="50"></a><br>
+
+              </td>
+              <td width="70%">
+                  <h2>Millennium Park</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>
+                 Strand Road,Fairley Place,Kolkata-700001,West Bengal</p>
+                  <p>One of the highlights of the park is its proximity to the river. Greenery abounds in the park in the form of trees, small plants and properly manicured lawns. Amidst landscaped gardens and amusement rides for children, there are benches where you can unwind. You can get an undisturbed view of the complete Howrah Bridge from this park.</p>
+              </td>
+        
+          </tr>
+          </table>
+
+           </div>
+           
+       </div> 
+    </body>
+</html>

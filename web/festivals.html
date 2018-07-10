@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet" type="text/css" href="top10.css">
+        
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <style>
+        .footer{display: inline-block;height:auto;width: 100%;background-color:rgba(165,100,78,0.5);}
+        .end{background-color:rgba(165,100,78,1);}
+        input{border-radius: 5px; padding:10px;}
+             body{margin: 30px; height:auto;background-color:rgba(251,238,201,0.8);}       
+       p{color:black;line-height: 1.5;}
+.vertical-menu {
+    width: 200px;height: auto;
+}
+#ver-link{background-color:brown;}
+.vertical-menu a {
+    color:whitesmoke;font-weight: bold;
+    display: block; text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;margin: 10px;
+}
+#ver-link:hover,#ver-link:visited{background-color:brown;border-bottom: 3px solid black;}
+        </style>
+    </head>
+    <body>
+        <div class="photos">
+           <div id="slider1">
+                          <div id="box1">
+<img class="image_gallery1" src="kolkatas-durga-puja-festival-wallpaper.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="GettyImages-611869108-5ad19d51642dca0036efc4a4.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="10612212353_47ec2da415_b.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="Bhog.jpg">  </div>    
+ <div id="box1"><img class="image_gallery1" src="10612002486_d79f109d2d_b.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="32.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="The-Grub-Fest-copy.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="5d55cb22d384a41e3c1843eaf0ebf33084e3cae4.png_facebook.png">  </div> 
+<div id="box1"><img class="image_gallery1" src="Bengali-Food-Festival-at-The-Fern-Residency-Kolkata-3.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="christ-feat.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="maxresdefault (7).jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="kiff-feature.jpg">  </div> 
+
+                       </div>  
+            <script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("image_gallery1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000); 
+}
+</script>
+       </div>
+        <ul>
+  
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+        <h1><marquee>KOLKATA FESTIVALS</marquee></h1>
+<table>
+    <tr>
+        <td>
+<div class="vertical-menu">
+  <a id="ver-link" href="art_gallery.html">Arts Gallery</a>
+  <a id="ver-link" href="culture.html">Culture</a>
+  <a id="ver-link" href="festivals.html">Festivals</a>
+  <a id="ver-link" href="fairs.html">Fairs</a>
+  </td>
+        <td>
+<div class="main">
+            <p>Kolkata festivals are celebrated with fun and frolic. In this section, we will provide you information on the different festivals of Kolkata, India.
+           <br>Durga Puja, held in September–October, is Kolkata's most important and largest festival; it is an occasion for glamorous celebrations and artistic decorations.The Bengali New Year, known as Poila Boishak, as well as the harvest festival of Poush Parbon are among the city's other festivals; also celebrated are Kali Puja, Diwali, Holi, Jagaddhatri Puja, Saraswati Puja, Rathayatra, Janmashtami, Maha Shivratri, Vishwakarma Puja, Lakshmi Puja, Ganesh Chathurthi, Makar Sankranti, Gajan, Kalpataru Day, Bhai Phonta, Maghotsab, Eid, Muharram, Christmas, Buddha Purnima and Mahavir Jayanti. Cultural events include the Rabindra Jayanti, Independence Day(15 August), Republic Day(26 January), Kolkata Book Fair, the Dover Lane Music Festival, the Kolkata Film Festival, Nandikar's National Theatre Festival, Statesman Vintage & Classic Car Rally and Gandhi Jayanti.
+            </p>
+        </div>
+            </td>
+    </tr>
+</table>
+         <ul class="end">
+            <li><i class="fas fa-info-circle"></i><a href="aboutus.html">ABOUT US</a></li>
+            <li><i class="fas fa-envelope"></i><a href="#">CONTACT US</a></li>
+        </ul> 
+    </body>
+</html>

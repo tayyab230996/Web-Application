@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet" type="text/css" href="top10.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+            body{
+    background-color: rgba(176,204,176,0.5);
+    
+    margin: 25px; background-repeat:no-repeat;
+    max-height:available;max-width:available;
+}
+            .center{display: block;text-align: center;margin-left: 500px;margin-bottom:10px;}
+             pag{display: inline-block; margin-bottom: 20px;}
+          .pag a{color: black;float: left;padding: 8px 16px;margin: 0 8px;font-size: 25px;
+                 font-weight: bold;display: block;border-radius: 10px;background-color: rgba(0,0,0,0.2);
+                text-decoration: none;border: 1px solid black;transition: background-color 0.5s;
+                }
+           .pag a:visited,.pag a:hover{background-color:rgba(0,0,0,0.5); color: white;}
+            h2{text-align: center;color:darkred;} h1{color:darkred;}
+            .content{height:auto;}
+            .main-content{height:auto;width: 100%;}
+            table{width: 100%;}
+            .pics{height:300px;width:400px; border: 1px solid black;
+                 display: inline-block;margin-left:20px;margin-right: 10px;
+                }
+                p{font-size:18px;text-indent: 0px;text-align: justify;color:black; font-weight: bold;}
+             .zoom{text-decoration: none; color:darkblue;} .zoom:hover{font-size: 40px;}
+            .pics:hover{border: 2px solid black;box-shadow: 0 0 10px #0000FF;}
+            section{text-align: center;font-size: 22px;color: white;}
+            </style>
+    </head>
+    <body>
+        <div class="photos">
+           <div id="slider1">
+                          <div id="box1">
+                              <img class="image_gallery1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/College_Street_-_Kolkata_7397.JPG/1200px-College_Street_-_Kolkata_7397.JPG"></div>
+<div id="box1"><img class="image_gallery1" src="https://s-ec.bstatic.com/images/hotel/max1280x900/966/96674167.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://static.panoramio.com.storage.googleapis.com/photos/large/59588310.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://c1.staticflickr.com/7/6235/6295408491_0e2be05d18_b.jpg"> </div>    
+    
+  <button class="prew" onclick="plusDivss(-1)"><i class="fas fa-arrow-circle-left fa-5x"></i></button>
+   <button class="next" onclick="plusDivss(1)"><i class="fas fa-arrow-circle-right fa-5x"></i></button>
+                       </div>  
+            <script>
+var slideIndexs = 1;
+showDivss(slideIndexs);
+plusDivss
+function plusDivss(n) {
+  showDivss(slideIndexs += n);
+}
+
+function showDivss(n) {
+  var i;
+  var x = document.getElementsByClassName("image_gallery1");
+  if (n > x.length) {slideIndexs = 1}    
+  if (n < 1) {slideIndexs = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndexs-1].style.display = "block";  
+}
+setInterval(showDivss(n),100);
+</script>
+       </div>
+        <ul>
+    
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content">
+           <center><h1>FAMOUS STREETS KOLKATA</h1></center><hr>
+           <div class="main-content">
+      <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Indian_Coffee_House%2C_Kolkata_%286334188949%29.jpg/1200px-Indian_Coffee_House%2C_Kolkata_%286334188949%29.jpg"><img class="pics" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Indian_Coffee_House%2C_Kolkata_%286334188949%29.jpg/1200px-Indian_Coffee_House%2C_Kolkata_%286334188949%29.jpg" height="50" width="50"></a><br>     
+
+              </td>
+              <td width="70%">
+                  <h2>College Street</h2>            
+                  <p>
+College Street, is a 1.5 km long street in central Kolkata in the Indian state of West Bengal. It stretches (approximately) from Ganesh Chandra Avenue Crossing in Bowbazar area to Mahatma Gandhi Road crossing.Its name derives from the presence of many colleges, housing many centres of intellectual activity especially the Indian Coffee House, a cafe that has attracted the city's intelligentsia for decades.
+  The College Street is most famous for its small and big bookstores, which gives it the nickname Boi Para (Colony of Books).People from whole city and different parts of the state gathers here for their books.Well-known academic institutions situated on this street include:<br>Presidency University, University of Calcutta, Sanskrit College, Hare School, Hindu School.</p>
+  
+              </td>
+              
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="http://govisitkolkata.weebly.com/uploads/1/0/5/7/10577615/1807132_orig.jpg"><img class="pics" src="http://govisitkolkata.weebly.com/uploads/1/0/5/7/10577615/1807132_orig.jpg" height="50" width="50"></a><br>     
+
+              </td>
+              <td width="70%">
+                  <h2>Park Street</h2>
+                  <p>Park Street, is a famous thoroughfare in the city of Kolkata, India. The street runs through what was a deer park of Sir Elijah Impey, Chief Justice of the Supreme Court in Calcutta from 1773 to 1789, hence the earlier name. Its current official name was given by Kolkata Municipal Corporation in honour of Mother Teresa.Park Street has been the recreation zone for Kolkata people since the British era.Park Street has notable landmarks, showrooms and buildings, and cenotaphs and tombs of prominent figures from the British Raj era and European population such as:Asiatic Society,The Park Hotel,St. Xavier's College,Assembly of God Church school,South Park Street Cemetery.</p>
+              </td> 
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="https://static.panoramio.com.storage.googleapis.com/photos/large/59588310.jpg"><img class="pics" src="https://static.panoramio.com.storage.googleapis.com/photos/large/59588310.jpg" height="50" width="50"></a><br>     
+     
+              </td>
+              <td width="70%">
+                  <h2>Strand Road</h2>
+               <p>Strand Road, also referred to as The Strand, is a major thoroughfare in the Indian city of Kolkata, running along the east bank of the Hooghly River, connects Prinsep Ghat to Nimtala near Shobhabazar through the downtown Kolkata.The Strand Road was built in 1823, by the Lottery Committee, along what was previously a long sedgy bank.Among the prominent land-marks along the road were, Baboo Ghat, erected at the expense of Baboo Raj Chundrer Doss(husband of Rani Rashmoni)and was officially named after him.</p>
+              </td>  
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="https://c1.staticflickr.com/7/6235/6295408491_0e2be05d18_b.jpg"><img class="pics" src="https://c1.staticflickr.com/7/6235/6295408491_0e2be05d18_b.jpg" height="50" width="50"></a><br>     
+
+              </td>
+              <td width="70%">
+                  <h2>Southern Avenue</h2>
+               <p> Southern Avenue, now renamed Dr Meghnad Saha Sarani, is an avenue in south Kolkata connecting Gol Park with Kalighat. It falls under the Ballygunge area.One of the important places on the avenue is the Birla Academy of Art and Culture Museum which was established in 1966.Many prominent Roads either originate from or merge into Southern Avenue on its course either to its north or south.Southern Avenue is dotted with beautiful private bungalows and several high rise apartments like 'Dakshinayan', 'Green View', 'Abhisarika', 'Ananda', 'Ashoka', 'Avenue House', 'Sarobar', 'Lake Towers', 'Arihant Garden' and the upcoming 'Fort Legend', to name a few. </p>
+              </td>
+          </tr>
+        </table><hr>
+          
+           </div>
+           
+       </div> 
+    </body>
+</html>

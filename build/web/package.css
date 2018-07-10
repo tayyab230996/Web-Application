@@ -1,0 +1,27 @@
+.footer{display: inline-block;height:auto;width: 100%;background-color:rgba(165,100,78,0.5);}
+        .end{background-color:rgba(165,100,78,1);}
+        input{border-radius: 5px; padding:10px;}
+             body{margin: 30px; height:auto;background-color:rgba(251,238,201,0.8);}
+    p{text-align:right;color:black;margin-right: 50px;text-shadow:0 0 1px brown;font-size:20px;}
+     p.coment{text-align:center;font-weight: bold;color:black;margin-right: 50px;
+              text-shadow:0 0 2px red;font-size: 24px;}
+    .gallery{height:auto;width: 100%;}
+    .photo-gallery{height:250px;width:300px;margin:5px;margin-bottom:5px;border: 3px solid #4f271c;float: left;}
+    .box{height:210px;width:285px;margin: 6px; border: 2px solid rgb(183,113,47);
+        float: left;}
+    .desc{font: 20px Times New Roman;color: chocolate;text-align: center;font-weight: bold;margin-top: 4px;letter-spacing: 2px;}
+        .photo-gallery:hover{border-color:wheat;} 
+       .center{align-content: center;display: block;margin-left: 490px;}
+        pag{display: inline-block;}
+        .pag a{color:white;float: left;padding: 10px 18px;margin: 0 6px; background-color: brown;
+            border-radius:50%;font-size: 28px;font-weight: bold;display: block;
+                text-decoration: none;border: 2px solid lightslategray;margin-top: 30px;
+                }
+         table{width: 100%;text-align:left; line-height: 2;letter-spacing: 1.5px;font-size: 18px;}
+         input{padding-right: 100px;padding-left: 100px;padding: 15px;border: 2px solid brown;}
+         #title{height: 20px;width:30%;color:darkcyan;font-size:30px;}
+         #option1{height: 15px;width:30%;font-size: 20px;color: red;}
+         #option2{height: 15px;width:70%;font-size: 20px;color: blue;}
+         
+        
+         

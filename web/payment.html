@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+            .payment{height:400px;width:650px;display: block;
+           margin-left: 350px;margin-top: 20px;margin-bottom: 20px;}
+            .content1{height: auto;} 
+            .card-field
+            {padding: 15px 40px;
+             margin:10px;margin-top: 15px;
+            display: inline-block;background-color:white;opacity: 0.8;
+            border: 1px solid #ccc;
+             border-radius: 5px;
+            box-sizing: border-box;
+            margin-left: 50px;
+            }
+            .card-field1{padding: 15px 40px;
+             margin:15px;
+            display: inline-block;
+            border: 1px solid #ccc;
+             border-radius: 5px;
+            box-sizing: border-box;
+            margin-left: 230px;}
+            .payment-form{display: block;position: absolute;top:98%;margin-left: 30px;}
+            .card1{opacity: 0.7;}
+            </style>
+    </head>
+    <body>
+         <div class="clip">
+      <video preload="auto" autoplay="autoplay" src="victoria_memorialtrim.mp4" loop></video> 
+       </div>
+         <ul>
+       <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>     
+       <div class="content1">
+           <div class="payment">  <img class="card1" src="cc_plat.png" height="350" width="600">          
+               <form class="payment-form" method="post" action="book_confirm">
+         <input class="card-field" type="text" placeholder="Card Holder Name" name="card-name">
+          <input class="card-field" type="text" placeholder="Card Number" name="card-no"><br>
+          <input class="card-field" type="email" placeholder="Enter Email" name="card-email">
+          <input class="card-field" type="text" placeholder="Mobile Number" name="card-mobile"><br>
+          <input class="card-field" type="text" placeholder="City" name="card-city">
+          <input class="card-field" type="text" placeholder="Pincode" name="card-pin"><br>
+          <input class="card-field" type="date" placeholder="Expity Date" name="card-date">
+          <input class="card-field" type="text" placeholder="Enter Amount" name="card-amount"><br>
+          <input class="card-field1" type="submit" value="Pay Amount" name="card-amount">
+</form>
+               
+       </div>
+       </div>
+        <ul>
+               <li><i class="fas fa-sign-out-alt"></i>LOGOUT</li>
+            <li><i class="fas fa-info-circle"></i><a href="aboutus.html">ABOUT US</a></li>
+            <li><i class="fas fa-envelope"></i><a href="contact.html">CONTACT US</a></li>
+           </ul>   
+    </body>
+</html>

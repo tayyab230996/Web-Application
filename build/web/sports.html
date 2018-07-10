@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet" type="text/css" href="top10.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+            body{
+    background-color:rgba(251,238,201,0.8);
+}
+            .center{display: block;text-align: center;margin-left: 500px;margin-bottom:10px;}
+             pag{display: inline-block; margin-bottom: 20px;}
+          .pag a{color: black;float: left;padding: 8px 16px;margin: 0 8px;font-size: 25px;
+                 font-weight: bold;display: block;border-radius: 10px;background-color: rgba(0,0,0,0.2);
+                text-decoration: none;border: 1px solid black;transition: background-color 0.5s;
+                }
+           .pag a:visited,.pag a:hover{background-color:rgba(0,0,0,0.5); color: white;}
+           
+            .content{height:auto;}
+            .main-content{height:auto;width: 100%;}
+            table{width: 100%;}
+            .pics{height:300px;width:450px; border: 1px solid black;
+                 display: inline-block;margin-left:20px;margin-right: 10px;
+                }
+                p{font-size:18px;text-indent: 0px;text-align: justify;color:black;}
+             .zoom{text-decoration: none; color:skyblue;} .zoom:hover{font-size: 40px;}
+            .pics:hover{border: 2px solid black;box-shadow: 0 0 10px #0000FF;}
+            section{text-align: center;font-size: 22px;color:black;}
+            </style>
+    </head>
+    <body>
+        <div class="photos">
+           <div id="slider1">
+                          <div id="box1">
+   <img class="image_gallery1" src="https://sportzwiki.com/wp-content/uploads/2016/06/Eden-1.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://content.louisphilippe.com/uploads/eden-gardens-best-ipl-cricket-stadiums.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://images.firstpost.com/wp-content/uploads/2017/10/Salt-Lake-stadium.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://i.ytimg.com/vi/-DjFHIALxec/maxresdefault.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="https://ccfc1792.com/img/bg.jpg">  </div>    
+  <button class="prew" onclick="plusDivss(-1)"><i class="fas fa-arrow-circle-left fa-5x"></i></button>
+   <button class="next" onclick="plusDivss(1)"><i class="fas fa-arrow-circle-right fa-5x"></i></button>
+                       </div>  
+            <script>
+var slideIndexs = 1;
+showDivss(slideIndexs);
+plusDivss
+function plusDivss(n) {
+  showDivss(slideIndexs += n);
+}
+
+function showDivss(n) {
+  var i;
+  var x = document.getElementsByClassName("image_gallery1");
+  if (n > x.length) {slideIndexs = 1}    
+  if (n < 1) {slideIndexs = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndexs-1].style.display = "block";  
+}
+setInterval(showDivss(n),100);
+</script>
+       </div>
+        <ul>
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content">
+           <center><h1>SPORTS ACADEMY IN KOLKATA</h1></center><hr>
+           <div class="main-content">
+      <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="https://media-cdn.tripadvisor.com/media/photo-s/03/bf/5c/0b/eden-gardens.jpg"><img class="pics" src="https://media-cdn.tripadvisor.com/media/photo-s/03/bf/5c/0b/eden-gardens.jpg" height="50" width="50"></a><br>     
+       
+              </td>
+              <td width="70%">
+                  <h2>Eden Gardens</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>Eden Garden Road,Kolkata-700021,West Bengal
+  <p>India's largest cricket stadium and one of Kolkata's important landmarks, the Eden Gardens can accommodate 66,349 people. This stadium is listed as the third largest in the world in terms of seating capacity.Established in the year 1864, Eden Gardens lies in Kolkata's B. B. D. Bagh area, near State Secretariat and Calcutta High Court. The first recorded test match and One Day International match in Eden Gardens were held in the year 1934 and 1987.
+  Eden Gardens is often regarded informally as India's home of cricket. The ground has been referred to as "cricket's answer to the Colosseum," and is widely acknowledged to be one of the most iconic cricket stadiums in the world.</p>
+  
+              </td>
+              
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="http://images.indianexpress.com/2017/10/salt-lake-m.jpg"><img class="pics" src="http://images.indianexpress.com/2017/10/salt-lake-m.jpg" height="50" width="50"></a><br>     
+
+              </td>
+              <td width="70%">
+                  <h2>Salt Lake Stadium</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>JB Block, Sector III, Salt Lake City, Kolkata-700098.
+                  <p>Salt Lake Stadium, officially known as Vivekananda Yuba Bharati Krirangan (VYBK),is a multipurpose stadium in Kolkata, with a current capacity of 85,000.It is the largest stadium in India by seating capacity. 
+                    Prior to the construction and opening of Rungrado May Day Stadium in 1989, it was the largest football stadium in the world. The stadium hosted the final match of the 2017 FIFA U-17 World Cup, alongside hosting other matches of the tournament.
+                  The stadium recently switched back to natural grass from artificial turf as part of the preparations for hosting the U-17 World Cup in 2017.</p>
+              </td> 
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="https://ccfc1792.com/img/bg.jpg"><img class="pics" src="https://ccfc1792.com/img/bg.jpg" height="50" width="50"></a><br>     
+
+              </td>
+              <td width="70%">
+                  <h2>Calcutta Cricket and Football Club</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>9/1, Gurusaday Dutta Road, Beck Bagan, Ballygunge, Kolkata-700019, West Bengal.
+                  <p>The Calcutta Cricket & Football Club (CC&FC) is a sports club based in Kolkata, India. It was founded in 1792 as a cricket institution, adding the football and rugby sections when it merged to Calcutta F.C. in 1965.The Club was founded as the "Calcutta Cricket Club Clippers" by British expatriates who had come over with the British East India Company.It is known to have been in existence by 1792</p>
+              </td>  
+          </tr>
+        </table><hr>
+                 
+           </div>
+           
+       </div> 
+    </body>
+</html>

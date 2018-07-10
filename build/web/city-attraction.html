@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+        <link rel="stylesheet" type="text/css" href="imagegallery.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+             .clip{
+    height: 500px;
+    width:100%;
+    position: relative;
+    overflow: hidden; 
+    
+}
+body{margin: 30px; height:auto;background-color:rgba(251,238,201,0.8);} 
+.footer{display: inline-block;height:auto;width: 100%;background-color:rgba(165,100,78,0.5);}
+        .end{background-color:rgba(165,100,78,1);}
+        input{border-radius: 5px; padding:10px;}
+        p{font-size: 20px;text-indent:60px;text-align: justify;color:black;line-height:1.5;}
+            h2{text-align: center;}
+            .content{height:auto;}
+            .content1{height: fit-content; width: fit-content; 
+                     background-color:transparent;}
+            .gallery{height:120px;width: 100%;text-align: center; }
+            .about{width: 100%; height: 400px;resize: vertical;line-height: 1.5;letter-spacing: 2px;}
+           
+            .category{text-align:center;height: auto;width:200px;margin-right:40px;}
+            
+            #somefacts{font-size: 20px;text-height: auto;text-align:center;letter-spacing: 3px;line-height: 1.5;}
+            .facts{text-decoration: none; color:black;}
+            i{margin: 10px;}
+            </style>
+    </head>
+    <body>
+       <div>
+      <iframe class="clip" src="https://www.google.com/maps/d/embed?mid=1LieC_j3HJR2CesFzWDQFhCpR5xNoaiPe&hl=en" width="640" height="480"></iframe>
+       </div>
+        <ul>
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content">
+           <center><h1>CITY ATTRACTION</h1></center>
+  <table class="about" border="0">
+               <tr>
+                   <td width="80%">  
+                       <p>
+                           
+<b>Kolkata</b> is the proud intellectual capital of the country.It used to be the capital of the 
+British East India Company and the evidence of the British colonization persists there in the city.
+The Victoria Memorial is a grand structure constructed in the memory of Queen Victoria.
+This building houses a number of rare specimens of the historical preserves of the land. 
+The Hanging Howrah Bridge is an architectural marvel of the country. The second largest planetarium in Asia, 
+the Birla Planetarium is another site that attracts attention of all The recently built Vidyasagar Setu is 
+another architectural wonder, connects both the banks of the Hooghly River. The Metro Railway, Indian Museum,
+Dalhousie Square, National Library,St. Paul's Cathedral, Shaheed Minar, Eden Garden, Fort William, Rat Park and 
+Marble Palace are some of the other sites of the city that are worth visiting.  <br></p>
+<p>Kolkata City Tours is proud to be a specialized service and the owners have been providing service and creating 
+friendships that cannot be matched by any large-scale corporate tours. We feel that the best way to experience 
+the "City of Joy" is hanging out with someone who's knowledgeable and accommodating. Our guides will provide you 
+with an experience that cannot be achieved by sitting on a bus with scores of other people.All our city tours in 
+Kolkata are assisted by knowledgeable guides, who can speak English, Hindi and Bengali.
+
+
+                       </p>
+                   </td>
+                   <td width="20%">
+                       <h2>SEARCH BY CATEGORY</h2>
+                      <center> <select class="category" name="category" id="category">
+                           <option>Select</option>
+                           <option value="parks.html">PARKS & GARDENS</option>
+                           <option value="themeparks.html">THEME PARKS</option>
+                           <option value="museums.html">MUSEUM</option>
+                           <option value="landmarks.html">LANDMARKS</option>
+                           <option value="religiousplaces.html">RELIGIOUS PLACES</option>
+                           <option value="educationplaces.html">EDUCATIONAL PLACES</option>
+                           <option value="famousstreets.html">FAMOUS STREETS</option>
+                             <option value="sports.html">SPORTS</option>
+                               <option value="bridges.html">BRIDGES</option>
+                               
+                          </select></center>
+                   </td>
+               </tr>
+               <script type="text/javascript">
+ var urlmenu = document.getElementById( 'category' );
+ urlmenu.onchange = function() {
+      window.open(  this.options[ this.selectedIndex ].value );
+ };
+</script>
+             </table>
+               <table class="gallery" border="0">
+               <tr>
+                   <td width="40%" id="somefacts">
+                       <h2>Some Facts About City</h2>
+                       <a class="facts" href="history.html"> History of Kolkata</a><br>
+                          <a class="facts" href="importance.html">Importance as a Tourist Destination</a><br>
+                           <a class="facts" href="role.html"> Role as a Commercial Hub of Eastern India</a><br>
+                          <a class="facts" href="community.html"> Community</a><br>
+                          <a class="facts" href="top10.html">  Top 5 Visiting Destinations</a>
+                   </td>
+                   <td width="60%"><a href="photo_gallery.html"><h2>Photo Gallery</h2></a>
+                       <div id="slider">
+                            <div id="box"><img class="image_gallery" src="Kolkata Gate.jpg"> </div>
+            <div id="box"><img class="image_gallery" src="Victoria-Memorial-Kolkata-1024x675.jpg"> </div>
+            <div id="box"><img class="image_gallery" src="Howrah-Bridge-in-Kolkata.jpg"></div>
+            <div id="box"><img class="image_gallery" src="Kolkata-rickshaw-Victoria-Memorial.jpg"></div>
+            <div id="box"><img class="image_gallery" src="Tram-in-Kolkata.jpg"> </div>    
+            <div id="box"><img class="image_gallery" src="India-Victoria-Memorial-Kolkata-West-Bengal-night-city-lights_1920x1080.jpg">  </div> 
+          <div id="box"><img class="image_gallery" src="17eco-(1).jpg"> </div>    
+           <div id="box"><img class="image_gallery" src="kolkata-eco-park-37892433.jpg"> </div> 
+            <div id="box"><img class="image_gallery" src="Infinity-Think-Tank-Final.jpg"> </div> 
+             <div id="box"><img class="image_gallery" src="Lib--621x414.jpg"> </div> 
+                           <button class="pre" onclick="plusDivs(-1)"><i class="fas fa-angle-double-left fa-3x"></i></button>
+                           <button class="nxt" onclick="plusDivs(1)"><i class="fas fa-angle-double-right fa-3x"></i></button>
+                       </div>  
+                       <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+plusDivs
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("image_gallery");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+setInterval(showDiivs(n),100);
+</script>
+                   </td>
+               </tr>
+               </table>
+           </div>
+    
+        <ul>
+            <li><i class="fas fa-info-circle"></i><a href="aboutus.html">ABOUT US</a></li>
+            <li><i class="fas fa-envelope"></i><a href="contact.html">CONTACT US</a></li>
+           </ul>   
+    </body>
+</html>

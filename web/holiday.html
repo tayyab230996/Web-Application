@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+       <link rel="stylesheet" type="text/css" href="holiday.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+           .footer{display: inline-block;height:auto;width: 100%;background-color:rgba(165,100,78,0.5);}
+        .end{background-color:rgba(165,100,78,1);}
+        input{border-radius: 5px; padding:10px;}
+             body{margin: 30px; height:auto;background-color:rgba(251,238,201,0.8);}       
+       .map{height: 400px;width: 100%;margin-top: 20px;}
+            .matter{height: auto;width: 100%;}
+            .center{display: block;text-align: center;margin-left: 500px;margin-bottom:10px;margin-top: 40px;}
+             pag{display: inline-block; margin-bottom: 20px;}
+          .pag a{color: black;float: left;padding: 8px 16px;margin: 0 8px;;
+                 ;font-size: 25px;font-weight: bold;display: block;border-radius: 10px;
+                text-decoration: none;border: 1px solid black;background-color:transparent;transition-duration: 1s;
+                }
+        .pag a:hover{background-color:tomato; color: white;transition: background-color 0.5s;}
+
+            .content1{height:auto;}
+            .main-content{height:auto;width: 100%;}
+            table{width: 100%;}
+            .pics{height:330px;width: 500px; border: 1px solid black;
+                 display: inline-block;margin-left:20px;margin-right: 20px;
+                }
+            .zoom{text-decoration: none; color:whitesmoke;} .zoom:hover{font-size: 40px;}
+            .pics:hover{border: 2px solid black;box-shadow: 0 0 10px #0000FF;}
+            p{font-size: 20px;text-indent:60px;text-align: justify;color:black;line-height:1.5;}
+            
+            </style>
+    </head>
+    <body>
+        
+        <div class="photos">
+           <div id="slider1">
+ <div id="box1"><img class="image_gallery1" src="http://www.destourist.com/wp-content/uploads/2016/10/shantinekatan-2.jpg"></div> 
+<div id="box1"><img class="image_gallery1" src="http://www.visvabharati.ac.in/images/8427300114_016.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="http://www.peersome.com/blog/wp-content/uploads/2017/01/IMG_20161015_151628398_HDR-1024x576.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Sunrise_%40_Digha.jpg/1200px-Sunrise_%40_Digha.jpg">  </div>    
+  <div id="box1"><img class="image_gallery1" src="https://farm1.staticflickr.com/412/20115050405_512801ba24_b.jpg"></div> 
+<div id="box1"><img class="image_gallery1" src="https://c1.staticflickr.com/9/8649/16527343180_dd943ba559_b.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://www.whatsuplife.in/kolkata/blog/wp-content/uploads/2016/11/16496163540_69535d67c4_b-1.jpg"> </div>    
+   
+                       </div>  
+            <script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("image_gallery1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000); 
+}
+</script>
+       </div>
+        
+       
+        <div class="matter">
+            
+        <ul>
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content1">
+           <center><h1>HOIDAY SPOTS AROUND KOLKATA</h1></center><hr>
+           <div class="main-content">
+      <table>
+          <tr>
+              <td width="30%">
+                          
+           <a href="Kala_Bhavan,_Santiniketan.jpg"> <img class="pics" src="Kala_Bhavan,_Santiniketan.jpg" height="50" width="50"></a><br>
+              </td>
+              <td width="70%">
+                  <h2>Santiniketan-Abode of Rabindranath Tagore</h2>
+                  <p>
+                     When it comes to excursions in Calcutta, the mention of Shantiniketan is like a must. Shantiniketan in Calcutta, is mainly known for Vishva-Bharati University that provides a platform for the convergence of western and eastern culture. Its foundation was laid by Nobel laureate Rabindranath Tagore.  
+                     <br>
+                     <b><font size="3">How to reach:</font></b>180 km from Kolkata.Driving Time: Around 3 hours.Can be reached by:Rail/ Road<br>
+                     <b><font size="3">Places of Interest:</font></b>Shantiniketan has a number of other important cultural and heritage features too. The Uttarayan complex has several buildings like Konark, Udayan, Shyamali and others.The Rabindra Bhaban Museum also called Bichitra has many preserved letters, manuscripts, medals, documents, paintings and certificates and achievements associated with Tagore.
+                    </p>
+                    
+              </td>    
+          </tr>
+        </table><hr>
+          <table>
+         <tr>
+              <td width="30%">
+                  <a href="Digha-Beach.jpg"><img class="pics" src="Digha-Beach.jpg" height="50" width="50"></a><br>       
+              </td>
+              <td width="70%">
+                  <h2>Digha</h2>
+                  <p>
+                     Literally the most sought after beach holiday retreat near Kolkata, Digha is located in the East Midnapur district at the border with Odisha. Lined with swaying chains of Casuarina trees, the beaches of Digha offer a beautiful canvas to be witnessed by the lovers of nature and serenity. Digha is mainly divided into Old Digha and New Digha. While Old Digha is found today at ruins and visited in the evening by lovebirds, New Digha is comparatively fresh in looks and attracts tourists for its Casuarina lined sea shore.<br>
+                     <b><font size="3">How to Reach:</font></b> To travel to Digha from Kolkata, it takes around 4 hours.  On most days, the Duronto Express leaves Howrah at 11:15 am and arrives at Digha in 2 hours and 30 minutes.s
+                  </p>
+              </td> 
+          </tr>
+          </table><hr>
+          <table>
+          <tr>
+              <td width="30%">
+                  <a href="105157710.jpg"><img class="pics" src="105157710.jpg" height="50" width="50"></a><br>  
+              </td>
+              <td width="70%"><h2>Mandarmani-The Goa of the East</h2>
+                  <p>
+                     Another much celebrated beach destination near Kolkata, Mandarmani has been attracting tourists for last couple of years for its clean and wide sea shore. An ideal getaway to take refuge in the lap of nature, this golden sea beach is lined with lush green vegetation and exclusive beach resorts. The cleanliness of the beach would let the willing travellers to take a dip in its water.<br>
+                     <b><font size="3">Places of Interest:</font></b>One can also rent a car and drive along the beach line to visit other nearby beach destinations like Tajpur, Digha, Dhankarpur, Talsharee, Udaypore and Junput. An interesting feature of the beach that is absolutely fascinating is the hundreds of tiny red crabs that climb up shore on the yellow sands.
+                    </p>
+              </td>
+          </tr>
+          </table>
+       
+           </div>
+           <div class="center">
+           <div class="pag">
+               <a href="holiday2.html">&laquo;</a>
+               <a href="holiday.html">1</a>
+               <a href="holiday1.html">2</a>
+               <a href="holiday2.html">3</a>
+               <a href="holiday1.html">&raquo;</a>
+           </div>
+           </div>
+       </div> 
+        </div>
+        <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1DX8MuBDwvrz_vrbMD3T7GZfvdL77aDAo&hl=en" width="640" height="480"></iframe>
+    </body>
+</html>

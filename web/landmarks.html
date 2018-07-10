@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homepage.css">
+       <link rel="stylesheet" type="text/css" href="top10.css">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <style>
+             .map{height: 400px;width: 100%;}
+            body{
+   background-color:rgba(251,238,201,0.8);
+    
+    margin: 25px; background-repeat:no-repeat;
+    max-height:available;max-width:available;
+}           .map{color: white;font-size: 22px;margin-top: 20px;}
+            .center{display: block;text-align: center;margin-left: 500px;margin-bottom:10px;}
+             pag{display: inline-block; margin-bottom: 20px;}
+          .pag a{color: black;float: left;padding: 8px 16px;margin: 0 8px;font-size: 25px;
+                 font-weight: bold;display: block;border-radius: 10px;background-color: rgba(0,0,0,0.2);
+                text-decoration: none;border: 1px solid black;transition: background-color 0.5s;
+                }
+           .pag a:visited,.pag a:hover{background-color:rgba(0,0,0,0.5); color: white;}
+            
+            .content{height:auto;}
+            .main-content{height:auto;width: 100%;}
+            table{width: 100%;}
+            .pics{height:300px;width:450px; border: 1px solid black;
+                 display: inline-block;margin-left:20px;margin-right: 10px;
+                }
+                p{font-size:18px;text-indent: 0px;text-align: justify;color:black;}
+             .zoom{text-decoration: none; color:skyblue;} .zoom:hover{font-size: 40px;}
+            .pics:hover{border: 2px solid black;box-shadow: 0 0 10px #0000FF;}
+            section{text-align: center;font-size: 22px;color: white;}
+            </style>
+    </head>
+    <body>
+        <div class="photos">
+           <div id="slider1">
+                          <div id="box1">
+    <img class="image_gallery1" src="https://i.ytimg.com/vi/b-Dco_vkusM/maxresdefault.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="https://upload.wikimedia.org/wikipedia/commons/8/85/Howrah_Station.jpg"></div>
+<div id="box1"><img class="image_gallery1" src="http://photos.wikimapia.org/p/00/02/29/40/37_full.jpeg"></div>
+<div id="box1"><img class="image_gallery1" src="https://3.bp.blogspot.com/-XZAzqMiVuvU/V43Jje3KmkI/AAAAAAAALWw/Tnp-SWHB4fA-LudVfhfO30vcjfJMUC-FgCLcB/s1600/15488531767_ec43f8e0bd_b.jpg"> </div>    
+<div id="box1"><img class="image_gallery1" src="Victoria-Memorial-Kolkata-1024x675.jpg"></div>    
+           </div>
+            <script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("image_gallery1");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 3000); 
+}
+</script>
+       </div>
+       
+        <ul>
+
+        <li><i class="fas fa-sign-in-alt"></i><a href ="loginpage.html">LOGIN</a></li> 
+       <li><i class="fas fa-calendar-check"></i><a href ="booking.html">BOOKING</a></li> 
+        <li><i class="fas fa-cog"></i><a href ="services.html">SERVICES</a></li>
+       <li><i class="fas fa-home"></i><a href ="homepage.html">HOME</a></li>
+      </ul>  
+       <div class="content">
+           <center><h1>FAMOUS LANDMARKS IN KOLKATA</h1></center><hr>
+           <div class="main-content">
+                <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="Kolkata-Victoria-Memorial-panorama.jpg"><img class="pics" src="Kolkata-Victoria-Memorial-panorama.jpg" height="50" width="50"></a><br>     
+                 
+              </td>
+              <td width="70%">
+                  <h2>Victoria Memorial</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>1, Queens Way, Kolkata, West Bengal 700071
+  <p>The Victoria Memorial is a large marble building in Kolkata, West Bengal, India, which was built between 1906 and 1921. It is dedicated to the memory of Queen Victoria (1819–1901) and is now a museum and tourist destination under the auspices of the Ministry of Culture.[2] The memorial lies on the Maidan (grounds) by the bank of the Hooghly River, near Jawaharlal Nehru Road (better known as Chowringhee Road).The gardens cover an area of 64 acres (260,000 m2). They are maintained by a team of 21 gardeners. They were designed by Redesdale and David Prain. On Esch's bridge, between narrative panels by Goscombe John, there is a bronze statue of Victoria, by George Frampton. </p>
+  
+              </td>
+              
+          </tr>
+        </table><hr>
+      <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="Howrah-Railway-howrah.jpg"><img class="pics" src="Howrah-Railway-howrah.jpg" height="50" width="50"></a><br>     
+                  
+              </td>
+              <td width="70%">
+                  <h2>Howrah Junction railway station</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>Lower Foreshore Rd, Howrah - 711101 West Bengal
+  <p> Howrah Station, is the largest railway complex in India and it is a railway station which serves Kolkata and Howrah, India. Approximately 620 passenger trains pass through the station each day requiring its 23 platforms and a high train handling capacity.Howrah Junction is one of five intercity railway stations serving the city of Kolkata, the others being Sealdah, Santragachi, Shalimar, and Kolkata railway station. The station is located in Howrah on the west bank of the Hooghly River.1273 stations across India are directly connected to Howrah Railway Station.</p>
+  
+              </td>
+              
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="Writers-Building-Kolkata.jpg"><img class="pics" src="Writers-Building-Kolkata.jpg" height="50" width="50"></a><br>     
+           
+              </td>
+              <td width="70%">
+                  <h2>Writers' Building</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>Lal Dighi, BBD Bagh, Kolkata-700001, West Bengal
+                  <p>The Writers' Building,often shortened to just Writers', is the secretariat building of the State Government of West Bengal in India.It is located in West Bengal's capital city of Kolkata.The Writers' Building was designed by Thomas Lyon in 1777 for the British East India Company. In 1821 a 128 ft-long verandah with Ionic columns, each 32 ft high, were added on the first and second floors. From 1889 to 1906 two new blocks were added, approached by iron staircases that are still in use. Writers' acquired its Greco-Roman look, complete with the portico in the central bay and the red surface of exposed brick. The parapet was put in place and the statues sculpted by William Fredric Woodington in 1883, that line the terrace, were installed.
+</p>
+              </td> 
+          </tr>
+        </table><hr>
+        <table>
+          <tr>
+              <td width="30%">
+                  <a  class="zoom" href="Lib--621x414.jpg"><img class="pics" src="Lib--621x414.jpg" height="50" width="50"></a><br>     
+           
+              </td>
+              <td width="70%">
+                  <h2>National Library of India</h2>
+                  <p><b><font size="3"><i class="fas fa-map-marker"></i>Location:</font></b>Belvedere Road, Alipore, Kolkata, West Bengal-700027
+                  <p>The National Library on the Belvedere Estate in Alipore, Kolkata,is the largest library in India by volume, 14th in the list of largest libraries, and India's library of public record.It is under the Department of Culture, Ministry of Tourism & Culture, Government of India. The library is designated to collect, disseminate and preserve printed material produced in India. The library is situated on the scenic 30-acre (12 ha) Belvedere Estate. It is the largest in India with a collection in excess of 2.2 million books.Before independence, it was the official residence of Lt. Governor of Bengal.</p>
+              </td>  
+          </tr>
+        </table><hr>
+        
+        
+          <div class="center">
+           <div class="pag">
+               <a href="landmarks3.html">&laquo;</a>
+               <a href="landmarks.html">1</a>
+               <a href="landmarks2.html">2</a>
+               <a href="landmarks3.html">3</a>
+               <a href="landmarks4.html">4</a>
+               <a href="landmarks2.html">&raquo;</a>
+           </div>
+           </div>
+           </div>
+           
+       </div> 
+        <iframe class="map" src="https://www.google.com/maps/d/embed?mid=1OYJttVLHNbj77cSvY4LBG5xMWkw5LB3H" width="640" height="480"></iframe>
+    </body>
+</html>
